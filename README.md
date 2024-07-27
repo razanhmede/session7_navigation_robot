@@ -1,6 +1,8 @@
 # session7_navigation_robot
 ## Overview
-This project involves a ROS 2-based navigation system for a robot equipped with a wall detection service and lap timing functionality. The project includes the following key components:
+This project involves a ROS 2-based navigation system for a robot equipped with a wall detection service and lap timing functionality.
+
+The project includes the following key components:
 
 - **robot_driver**: Handles the robot’s movement and interacts with the wall detection service.
 - **wall_finder_service_server**: A service that detects walls and logs their distance and angle.
@@ -9,6 +11,7 @@ This project involves a ROS 2-based navigation system for a robot equipped with 
   
 ## Usage
 1- **Clone the repository**
+
 2- **Build the package**:
 
  ```bash
@@ -19,10 +22,16 @@ This project involves a ROS 2-based navigation system for a robot equipped with 
  ```bash
    source install/setup.bash
  ```
-4- **Run the turtlebot3 simulation**
 
-5- **Run the launch file**
+4- **Run the launch file**:
  ```bash
  ros2 launch session7_turtlebot3_robot navigation_robot_launch.py
+ ```
+5- **Run the turtlebot3 simulation to visualize the robot in the arena**:
+
+On another terminal:
+ ```bash
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo turtlebot3_dqn_stage1.launch.py
  ```
 
