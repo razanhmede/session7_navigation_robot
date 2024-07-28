@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from navigation_robot_custom_interfaces/srv/FindClosestWall.srv
+// generated code does not contain a copyright notice
+
+
+module navigation_robot_custom_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request part")
+    struct FindClosestWall_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Response part")
+    struct FindClosestWall_Response {
+      float x;
+
+      float y;
+
+      float z;
+    };
+  };
+};

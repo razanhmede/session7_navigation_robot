@@ -1,0 +1,292 @@
+[0.000000] (-) TimerEvent: {}
+[0.000801] (navigation_robot_custom_interfaces) JobQueued: {'identifier': 'navigation_robot_custom_interfaces', 'dependencies': OrderedDict()}
+[0.011851] (session7_turtlebot3_robot) JobQueued: {'identifier': 'session7_turtlebot3_robot', 'dependencies': OrderedDict([('navigation_robot_custom_interfaces', '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces')])}
+[0.011968] (navigation_robot_custom_interfaces) JobStarted: {'identifier': 'navigation_robot_custom_interfaces'}
+[0.075489] (navigation_robot_custom_interfaces) JobProgress: {'identifier': 'navigation_robot_custom_interfaces', 'progress': 'cmake'}
+[0.076413] (navigation_robot_custom_interfaces) JobProgress: {'identifier': 'navigation_robot_custom_interfaces', 'progress': 'build'}
+[0.077895] (navigation_robot_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://4_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '4_xterm'), ('PWD', '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_navigationrobot_ws/install:/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/python3.10/site-packages:/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '4_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://4_xterm:11311'), ('ROS_HOSTNAME', '4_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '811064'), ('SLOT_PREFIX', 'a2992e19-646c-461c-a9db-6851f6035190'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25888'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20004'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.091087] (-) TimerEvent: {}
+[0.191958] (-) TimerEvent: {}
+[0.293428] (-) TimerEvent: {}
+[0.393796] (-) TimerEvent: {}
+[0.398940] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.493992] (-) TimerEvent: {}
+[0.594382] (-) TimerEvent: {}
+[0.694755] (-) TimerEvent: {}
+[0.795214] (-) TimerEvent: {}
+[0.895616] (-) TimerEvent: {}
+[0.995943] (-) TimerEvent: {}
+[1.096406] (-) TimerEvent: {}
+[1.196939] (-) TimerEvent: {}
+[1.225517] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.297850] (-) TimerEvent: {}
+[1.398817] (-) TimerEvent: {}
+[1.500206] (-) TimerEvent: {}
+[1.602063] (-) TimerEvent: {}
+[1.685713] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.703853] (-) TimerEvent: {}
+[1.705671] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.776778] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.803985] (-) TimerEvent: {}
+[1.879518] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.904112] (-) TimerEvent: {}
+[1.978634] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.004229] (-) TimerEvent: {}
+[2.105471] (-) TimerEvent: {}
+[2.206564] (-) TimerEvent: {}
+[2.306979] (-) TimerEvent: {}
+[2.408511] (-) TimerEvent: {}
+[2.508872] (-) TimerEvent: {}
+[2.609527] (-) TimerEvent: {}
+[2.680575] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.692812] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.709637] (-) TimerEvent: {}
+[2.809981] (-) TimerEvent: {}
+[2.911330] (-) TimerEvent: {}
+[3.014387] (-) TimerEvent: {}
+[3.115099] (-) TimerEvent: {}
+[3.217923] (-) TimerEvent: {}
+[3.318364] (-) TimerEvent: {}
+[3.472184] (-) TimerEvent: {}
+[3.572592] (-) TimerEvent: {}
+[3.607494] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.673518] (-) TimerEvent: {}
+[3.774702] (-) TimerEvent: {}
+[3.877058] (-) TimerEvent: {}
+[3.977441] (-) TimerEvent: {}
+[4.077839] (-) TimerEvent: {}
+[4.180204] (-) TimerEvent: {}
+[4.280577] (-) TimerEvent: {}
+[4.381420] (-) TimerEvent: {}
+[4.482256] (-) TimerEvent: {}
+[4.583321] (-) TimerEvent: {}
+[4.685720] (-) TimerEvent: {}
+[4.786451] (-) TimerEvent: {}
+[4.887374] (-) TimerEvent: {}
+[4.900322] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/home/simulations/ros2_sims_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)\n'}
+[4.987509] (-) TimerEvent: {}
+[5.088778] (-) TimerEvent: {}
+[5.189253] (-) TimerEvent: {}
+[5.289609] (-) TimerEvent: {}
+[5.389999] (-) TimerEvent: {}
+[5.490826] (-) TimerEvent: {}
+[5.591424] (-) TimerEvent: {}
+[5.693655] (-) TimerEvent: {}
+[5.794035] (-) TimerEvent: {}
+[5.894422] (-) TimerEvent: {}
+[5.994887] (-) TimerEvent: {}
+[6.095262] (-) TimerEvent: {}
+[6.197141] (-) TimerEvent: {}
+[6.298332] (-) TimerEvent: {}
+[6.399071] (-) TimerEvent: {}
+[6.499533] (-) TimerEvent: {}
+[6.599931] (-) TimerEvent: {}
+[6.700413] (-) TimerEvent: {}
+[6.794251] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.801557] (-) TimerEvent: {}
+[6.901923] (-) TimerEvent: {}
+[7.002309] (-) TimerEvent: {}
+[7.102641] (-) TimerEvent: {}
+[7.205356] (-) TimerEvent: {}
+[7.305898] (-) TimerEvent: {}
+[7.406337] (-) TimerEvent: {}
+[7.506981] (-) TimerEvent: {}
+[7.607403] (-) TimerEvent: {}
+[7.708219] (-) TimerEvent: {}
+[7.808969] (-) TimerEvent: {}
+[7.909331] (-) TimerEvent: {}
+[8.009666] (-) TimerEvent: {}
+[8.112016] (-) TimerEvent: {}
+[8.213626] (-) TimerEvent: {}
+[8.314350] (-) TimerEvent: {}
+[8.402384] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.414460] (-) TimerEvent: {}
+[8.515122] (-) TimerEvent: {}
+[8.615906] (-) TimerEvent: {}
+[8.721786] (-) TimerEvent: {}
+[8.822122] (-) TimerEvent: {}
+[8.922543] (-) TimerEvent: {}
+[9.022771] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.023019] (-) TimerEvent: {}
+[9.124054] (-) TimerEvent: {}
+[9.224481] (-) TimerEvent: {}
+[9.326013] (-) TimerEvent: {}
+[9.430124] (-) TimerEvent: {}
+[9.433125] (navigation_robot_custom_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning at /home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs_generate_interfaces.cmake:62 (message):\n'}
+[9.433614] (navigation_robot_custom_interfaces) StderrLine: {'line': b'  Rust actions generation is not implemented\n'}
+[9.433741] (navigation_robot_custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.433839] (navigation_robot_custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[9.433941] (navigation_robot_custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[9.434170] (navigation_robot_custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[9.434271] (navigation_robot_custom_interfaces) StderrLine: {'line': b'\n'}
+[9.434377] (navigation_robot_custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[9.571288] (-) TimerEvent: {}
+[9.596505] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[9.671562] (-) TimerEvent: {}
+[9.771968] (-) TimerEvent: {}
+[9.777939] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.778182] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[9.778292] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[9.872206] (-) TimerEvent: {}
+[9.912603] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[9.972337] (-) TimerEvent: {}
+[10.073397] (-) TimerEvent: {}
+[10.108804] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.113791] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.122433] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.174317] (-) TimerEvent: {}
+[10.274643] (-) TimerEvent: {}
+[10.293762] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[10.300633] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces\n'}
+[10.374786] (-) TimerEvent: {}
+[10.475487] (-) TimerEvent: {}
+[10.485575] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[10.575598] (-) TimerEvent: {}
+[10.675988] (-) TimerEvent: {}
+[10.776518] (-) TimerEvent: {}
+[10.876889] (-) TimerEvent: {}
+[10.977220] (-) TimerEvent: {}
+[11.077596] (-) TimerEvent: {}
+[11.178087] (-) TimerEvent: {}
+[11.279433] (-) TimerEvent: {}
+[11.381268] (-) TimerEvent: {}
+[11.482187] (-) TimerEvent: {}
+[11.582617] (-) TimerEvent: {}
+[11.683766] (-) TimerEvent: {}
+[11.703421] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  2%] Built target navigation_robot_custom_interfaces__rs\n'}
+[11.783834] (-) TimerEvent: {}
+[11.818038] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_navigation_robot_custom_interfaces\n'}
+[11.884048] (-) TimerEvent: {}
+[11.914220] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[11.984164] (-) TimerEvent: {}
+[12.085415] (-) TimerEvent: {}
+[12.186336] (-) TimerEvent: {}
+[12.286663] (-) TimerEvent: {}
+[12.387346] (-) TimerEvent: {}
+[12.488161] (-) TimerEvent: {}
+[12.589212] (-) TimerEvent: {}
+[12.690101] (-) TimerEvent: {}
+[12.790996] (-) TimerEvent: {}
+[12.894337] (-) TimerEvent: {}
+[12.994759] (-) TimerEvent: {}
+[13.095104] (-) TimerEvent: {}
+[13.196857] (-) TimerEvent: {}
+[13.297202] (-) TimerEvent: {}
+[13.397683] (-) TimerEvent: {}
+[13.498041] (-) TimerEvent: {}
+[13.598839] (-) TimerEvent: {}
+[13.699414] (-) TimerEvent: {}
+[13.799874] (-) TimerEvent: {}
+[13.900606] (-) TimerEvent: {}
+[14.000330] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  5%] Built target navigation_robot_custom_interfaces__cpp\n'}
+[14.000801] (-) TimerEvent: {}
+[14.101085] (-) TimerEvent: {}
+[14.202045] (-) TimerEvent: {}
+[14.302406] (-) TimerEvent: {}
+[14.403544] (-) TimerEvent: {}
+[14.504841] (-) TimerEvent: {}
+[14.605345] (-) TimerEvent: {}
+[14.707186] (-) TimerEvent: {}
+[14.807618] (-) TimerEvent: {}
+[14.908105] (-) TimerEvent: {}
+[14.981942] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[14.983123] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'writing navigation_robot_custom_interfaces.egg-info/PKG-INFO\n'}
+[14.984568] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'writing dependency_links to navigation_robot_custom_interfaces.egg-info/dependency_links.txt\n'}
+[14.984891] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'writing top-level names to navigation_robot_custom_interfaces.egg-info/top_level.txt\n'}
+[14.988142] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"reading manifest file 'navigation_robot_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[14.990899] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'navigation_robot_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[15.008894] (-) TimerEvent: {}
+[15.084689] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_navigation_robot_custom_interfaces_egg\n'}
+[15.109022] (-) TimerEvent: {}
+[15.113211] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.209136] (-) TimerEvent: {}
+[15.309728] (-) TimerEvent: {}
+[15.410190] (-) TimerEvent: {}
+[15.511458] (-) TimerEvent: {}
+[15.611961] (-) TimerEvent: {}
+[15.712501] (-) TimerEvent: {}
+[15.812896] (-) TimerEvent: {}
+[15.915027] (-) TimerEvent: {}
+[16.015699] (-) TimerEvent: {}
+[16.116024] (-) TimerEvent: {}
+[16.216403] (-) TimerEvent: {}
+[16.316779] (-) TimerEvent: {}
+[16.407965] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navigation_robot_custom_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[16.417505] (-) TimerEvent: {}
+[16.494731] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigation_robot_custom_interfaces/srv/find_closest_wall__type_support.cpp.o\x1b[0m\n'}
+[16.517779] (-) TimerEvent: {}
+[16.618865] (-) TimerEvent: {}
+[16.719280] (-) TimerEvent: {}
+[16.819670] (-) TimerEvent: {}
+[16.920048] (-) TimerEvent: {}
+[17.020406] (-) TimerEvent: {}
+[17.120741] (-) TimerEvent: {}
+[17.221159] (-) TimerEvent: {}
+[17.321538] (-) TimerEvent: {}
+[17.421864] (-) TimerEvent: {}
+[17.522179] (-) TimerEvent: {}
+[17.622950] (-) TimerEvent: {}
+[17.723257] (-) TimerEvent: {}
+[17.823598] (-) TimerEvent: {}
+[17.924394] (-) TimerEvent: {}
+[18.024723] (-) TimerEvent: {}
+[18.125680] (-) TimerEvent: {}
+[18.226087] (-) TimerEvent: {}
+[18.326543] (-) TimerEvent: {}
+[18.427390] (-) TimerEvent: {}
+[18.527792] (-) TimerEvent: {}
+[18.628259] (-) TimerEvent: {}
+[18.729994] (-) TimerEvent: {}
+[18.831649] (-) TimerEvent: {}
+[18.932521] (-) TimerEvent: {}
+[19.034525] (-) TimerEvent: {}
+[19.171782] (-) TimerEvent: {}
+[19.272127] (-) TimerEvent: {}
+[19.372509] (-) TimerEvent: {}
+[19.473737] (-) TimerEvent: {}
+[19.574096] (-) TimerEvent: {}
+[19.674438] (-) TimerEvent: {}
+[19.774801] (-) TimerEvent: {}
+[19.875197] (-) TimerEvent: {}
+[19.975599] (-) TimerEvent: {}
+[20.076001] (-) TimerEvent: {}
+[20.176676] (-) TimerEvent: {}
+[20.277046] (-) TimerEvent: {}
+[20.377535] (-) TimerEvent: {}
+[20.477902] (-) TimerEvent: {}
+[20.578260] (-) TimerEvent: {}
+[20.678635] (-) TimerEvent: {}
+[20.779365] (-) TimerEvent: {}
+[20.879786] (-) TimerEvent: {}
+[20.980348] (-) TimerEvent: {}
+[21.080815] (-) TimerEvent: {}
+[21.181361] (-) TimerEvent: {}
+[21.282415] (-) TimerEvent: {}
+[21.383061] (-) TimerEvent: {}
+[21.483853] (-) TimerEvent: {}
+[21.584728] (-) TimerEvent: {}
+[21.685150] (-) TimerEvent: {}
+[21.785522] (-) TimerEvent: {}
+[21.885937] (-) TimerEvent: {}
+[21.986298] (-) TimerEvent: {}
+[21.997237] (navigation_robot_custom_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces/rosidl_typesupport_cpp/navigation_robot_custom_interfaces/srv/find_closest_wall__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[21.997653] (navigation_robot_custom_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces/rosidl_generator_cpp/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__struct.hpp:127:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgeometry_msgs/msg/detail/vector3__struct.hpp: No such file or directory\n'}
+[21.997917] (navigation_robot_custom_interfaces) StderrLine: {'line': b'  127 | #include \x1b[01;31m\x1b[K"geometry_msgs/msg/detail/vector3__struct.hpp"\x1b[m\x1b[K\n'}
+[21.998073] (navigation_robot_custom_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.998379] (navigation_robot_custom_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[22.074101] (navigation_robot_custom_interfaces) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_cpp.dir/build.make:127: CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigation_robot_custom_interfaces/srv/find_closest_wall__type_support.cpp.o] Error 1\n'}
+[22.074568] (navigation_robot_custom_interfaces) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[22.074711] (navigation_robot_custom_interfaces) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[22.077259] (navigation_robot_custom_interfaces) CommandEnded: {'returncode': 2}
+[22.086449] (-) TimerEvent: {}
+[22.186757] (-) TimerEvent: {}
+[22.288377] (-) TimerEvent: {}
+[22.389099] (-) TimerEvent: {}
+[22.489427] (-) TimerEvent: {}
+[22.590593] (-) TimerEvent: {}
+[22.690964] (-) TimerEvent: {}
+[22.791476] (-) TimerEvent: {}
+[22.891963] (-) TimerEvent: {}
+[22.901392] (navigation_robot_custom_interfaces) JobEnded: {'identifier': 'navigation_robot_custom_interfaces', 'rc': 2}
+[22.904037] (session7_turtlebot3_robot) JobSkipped: {'identifier': 'session7_turtlebot3_robot'}
+[22.904105] (-) EventReactorShutdown: {}

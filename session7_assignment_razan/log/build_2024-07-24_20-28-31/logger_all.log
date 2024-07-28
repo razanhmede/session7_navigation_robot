@@ -1,0 +1,213 @@
+[0.428s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.428s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, lookup_in_workspace=False, cargo_args=None, clean_build=False, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ff23ab2a650>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff23ab29ae0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff23ab29ae0>>, mixin_verb=('build',))
+[1.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.196s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/ros2_navigationrobot_ws'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ament_cargo']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ament_cargo'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cargo', 'cmake', 'python']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cargo'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ament_cargo']
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ament_cargo'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cargo', 'cmake', 'python']
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cargo'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extension 'ignore'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extension 'ignore_ament_install'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extensions ['colcon_pkg']
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extension 'colcon_pkg'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extensions ['colcon_meta']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extension 'colcon_meta'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extensions ['ament_cargo']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extension 'ament_cargo'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extensions ['ros']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_robot_custom_interfaces) by extension 'ros'
+[1.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_robot_custom_interfaces' with type 'ros.ament_cmake' and name 'navigation_robot_custom_interfaces'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/session7_turtlebot3_robot) by extensions ['ignore', 'ignore_ament_install']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/session7_turtlebot3_robot) by extension 'ignore'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/session7_turtlebot3_robot) by extension 'ignore_ament_install'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/session7_turtlebot3_robot) by extensions ['colcon_pkg']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/session7_turtlebot3_robot) by extension 'colcon_pkg'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/session7_turtlebot3_robot) by extensions ['colcon_meta']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/session7_turtlebot3_robot) by extension 'colcon_meta'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/session7_turtlebot3_robot) by extensions ['ament_cargo']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/session7_turtlebot3_robot) by extension 'ament_cargo'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/session7_turtlebot3_robot) by extensions ['ros']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/session7_turtlebot3_robot) by extension 'ros'
+[1.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/session7_turtlebot3_robot' with type 'ros.ament_python' and name 'session7_turtlebot3_robot'
+[1.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'lookup_in_workspace' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'cargo_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'clean_build' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.335s] Level 5:colcon.colcon_core.verb:set package 'navigation_robot_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.335s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_robot_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_navigationrobot_ws/src/navigation_robot_custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'session7_turtlebot3_robot' build argument 'lookup_in_workspace' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'session7_turtlebot3_robot' build argument 'cargo_args' from command line to 'None'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'session7_turtlebot3_robot' build argument 'clean_build' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'session7_turtlebot3_robot' build argument 'cmake_args' from command line to 'None'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'session7_turtlebot3_robot' build argument 'cmake_target' from command line to 'None'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'session7_turtlebot3_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'session7_turtlebot3_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.336s] Level 5:colcon.colcon_core.verb:set package 'session7_turtlebot3_robot' build argument 'cmake_clean_first' from command line to 'False'
+[1.366s] Level 5:colcon.colcon_core.verb:set package 'session7_turtlebot3_robot' build argument 'cmake_force_configure' from command line to 'False'
+[1.366s] Level 5:colcon.colcon_core.verb:set package 'session7_turtlebot3_robot' build argument 'ament_cmake_args' from command line to 'None'
+[1.366s] Level 5:colcon.colcon_core.verb:set package 'session7_turtlebot3_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.366s] Level 5:colcon.colcon_core.verb:set package 'session7_turtlebot3_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.366s] DEBUG:colcon.colcon_core.verb:Building package 'session7_turtlebot3_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_navigationrobot_ws/src/session7_turtlebot3_robot', 'symlink_install': False, 'test_result_base': None}
+[1.367s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.379s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.379s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_navigationrobot_ws/src/navigation_robot_custom_interfaces' with build type 'ament_cmake'
+[1.379s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_navigationrobot_ws/src/navigation_robot_custom_interfaces'
+[1.402s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.410s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/user/ros2_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[1.426s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/ros2_navigationrobot_ws/src/session7_turtlebot3_robot' with build type 'ament_python'
+[1.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('session7_turtlebot3_robot', 'ament_prefix_path')
+[1.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/share/session7_turtlebot3_robot/hook/ament_prefix_path.ps1'
+[1.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/share/session7_turtlebot3_robot/hook/ament_prefix_path.dsv'
+[1.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/share/session7_turtlebot3_robot/hook/ament_prefix_path.sh'
+[1.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces -- -j8 -l8
+[2.871s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/ros2_navigationrobot_ws/src/session7_turtlebot3_robot'
+[2.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_navigationrobot_ws/src/session7_turtlebot3_robot': PYTHONPATH=/home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot/prefix_override:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/session7_turtlebot3_robot build --build-base /home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot/build install --record /home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot/install.log --single-version-externally-managed install_data
+[6.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_navigationrobot_ws/src/session7_turtlebot3_robot' returned '0': PYTHONPATH=/home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot/prefix_override:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/session7_turtlebot3_robot build --build-base /home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot/build install --record /home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot/install.log --single-version-externally-managed install_data
+[6.030s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot' for CMake module files
+[6.031s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot' for CMake config files
+[6.032s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib'
+[6.033s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/bin'
+[6.033s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/pkgconfig/session7_turtlebot3_robot.pc'
+[6.033s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/python3.10/site-packages'
+[6.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('session7_turtlebot3_robot', 'pythonpath')
+[6.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/share/session7_turtlebot3_robot/hook/pythonpath.ps1'
+[6.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/share/session7_turtlebot3_robot/hook/pythonpath.dsv'
+[6.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/share/session7_turtlebot3_robot/hook/pythonpath.sh'
+[6.073s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/bin'
+[6.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(session7_turtlebot3_robot)
+[6.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/share/session7_turtlebot3_robot/package.ps1'
+[6.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/share/session7_turtlebot3_robot/package.dsv'
+[6.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/share/session7_turtlebot3_robot/package.sh'
+[6.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/share/session7_turtlebot3_robot/package.bash'
+[6.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/share/session7_turtlebot3_robot/package.zsh'
+[6.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/share/colcon-core/packages/session7_turtlebot3_robot)
+[48.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces -- -j8 -l8
+[48.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces
+[49.285s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_robot_custom_interfaces)
+[49.287s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces' for CMake module files
+[49.288s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces' for CMake config files
+[49.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_robot_custom_interfaces', 'cmake_prefix_path')
+[49.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/cmake_prefix_path.ps1'
+[49.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/cmake_prefix_path.dsv'
+[49.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/cmake_prefix_path.sh'
+[49.296s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib'
+[49.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_robot_custom_interfaces', 'ld_library_path_lib')
+[49.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/ld_library_path_lib.ps1'
+[49.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/ld_library_path_lib.dsv'
+[49.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/ld_library_path_lib.sh'
+[49.299s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/bin'
+[49.299s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/pkgconfig/navigation_robot_custom_interfaces.pc'
+[49.299s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/python3.10/site-packages'
+[49.299s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/bin'
+[49.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.ps1'
+[49.303s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.dsv'
+[49.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces
+[49.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.sh'
+[49.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.bash'
+[49.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.zsh'
+[49.306s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/colcon-core/packages/navigation_robot_custom_interfaces)
+[50.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_robot_custom_interfaces)
+[50.093s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces' for CMake module files
+[50.095s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces' for CMake config files
+[50.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_robot_custom_interfaces', 'cmake_prefix_path')
+[50.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/cmake_prefix_path.ps1'
+[50.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/cmake_prefix_path.dsv'
+[50.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/cmake_prefix_path.sh'
+[50.115s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib'
+[50.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_robot_custom_interfaces', 'ld_library_path_lib')
+[50.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/ld_library_path_lib.ps1'
+[50.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/ld_library_path_lib.dsv'
+[50.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/hook/ld_library_path_lib.sh'
+[50.117s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/bin'
+[50.117s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/pkgconfig/navigation_robot_custom_interfaces.pc'
+[50.120s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/python3.10/site-packages'
+[50.123s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/bin'
+[50.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.ps1'
+[50.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.dsv'
+[50.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.sh'
+[50.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.bash'
+[50.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.zsh'
+[50.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/colcon-core/packages/navigation_robot_custom_interfaces)
+[50.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[50.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[50.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[50.127s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[50.136s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[50.137s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[50.137s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[50.137s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[50.143s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[50.143s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[50.144s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_navigationrobot_ws/install/local_setup.ps1'
+[50.146s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_navigationrobot_ws/install/_local_setup_util_ps1.py'
+[50.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_navigationrobot_ws/install/setup.ps1'
+[50.151s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_navigationrobot_ws/install/local_setup.sh'
+[50.152s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_navigationrobot_ws/install/_local_setup_util_sh.py'
+[50.152s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_navigationrobot_ws/install/setup.sh'
+[50.181s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_navigationrobot_ws/install/local_setup.bash'
+[50.182s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_navigationrobot_ws/install/setup.bash'
+[50.186s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_navigationrobot_ws/install/local_setup.zsh'
+[50.186s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_navigationrobot_ws/install/setup.zsh'

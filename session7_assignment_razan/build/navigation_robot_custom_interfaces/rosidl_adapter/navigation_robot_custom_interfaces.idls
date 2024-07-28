@@ -1,0 +1,2 @@
+/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces/rosidl_adapter/navigation_robot_custom_interfaces:srv/FindClosestWall.idl
+/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces/rosidl_adapter/navigation_robot_custom_interfaces:action/MeasureLapTime.idl

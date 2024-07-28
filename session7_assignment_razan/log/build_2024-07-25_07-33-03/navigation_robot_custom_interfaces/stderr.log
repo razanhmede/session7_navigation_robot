@@ -1,0 +1,16 @@
+[33mCMake Warning at /home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs_generate_interfaces.cmake:62 (message):
+  Rust actions generation is not implemented
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:15 (rosidl_generate_interfaces)
+
+[0m
+In file included from [01m[K/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces/rosidl_typesupport_cpp/navigation_robot_custom_interfaces/srv/find_closest_wall__type_support.cpp:7[m[K:
+[01m[K/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces/rosidl_generator_cpp/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__struct.hpp:127:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/detail/vector3__struct.hpp: No such file or directory
+  127 | #include [01;31m[K"geometry_msgs/msg/detail/vector3__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_cpp.dir/build.make:127: CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigation_robot_custom_interfaces/srv/find_closest_wall__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

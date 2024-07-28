@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/navigation_robot_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_robot_custom_interfaces/action/_measure_lap_time_s.c.o"
+  "CMakeFiles/navigation_robot_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_robot_custom_interfaces/action/_measure_lap_time_s.c.o.d"
+  "CMakeFiles/navigation_robot_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_robot_custom_interfaces/srv/_find_closest_wall_s.c.o"
+  "CMakeFiles/navigation_robot_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_robot_custom_interfaces/srv/_find_closest_wall_s.c.o.d"
+  "rosidl_generator_py/navigation_robot_custom_interfaces/libnavigation_robot_custom_interfaces__rosidl_generator_py.pdb"
+  "rosidl_generator_py/navigation_robot_custom_interfaces/libnavigation_robot_custom_interfaces__rosidl_generator_py.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/navigation_robot_custom_interfaces__rosidl_generator_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

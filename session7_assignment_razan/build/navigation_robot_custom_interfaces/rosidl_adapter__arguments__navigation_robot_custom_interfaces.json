@@ -1,0 +1,7 @@
+{
+  "package_name": "navigation_robot_custom_interfaces",
+  "non_idl_tuples": [
+    "/home/user/ros2_navigationrobot_ws/src/navigation_robot_custom_interfaces:srv/FindClosestWall.srv",
+    "/home/user/ros2_navigationrobot_ws/src/navigation_robot_custom_interfaces:action/MeasureLapTime.action"
+  ]
+}

@@ -1,0 +1,6 @@
+[console_scripts]
+lap_time_action_client = session7_turtlebot3_robot.lap_time_action_client:main
+lap_time_action_server = session7_turtlebot3_robot.lap_time_action_server:main
+robot_driver = session7_turtlebot3_robot.robot_driver:main
+wall_finder_service_server = session7_turtlebot3_robot.wall_finder_service_server:main
+

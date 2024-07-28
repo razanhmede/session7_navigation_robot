@@ -1,0 +1,318 @@
+[0.090s] Invoking command in '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_navigationrobot_ws/src/navigation_robot_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces
+[0.371s] -- The C compiler identification is GNU 11.4.0
+[0.687s] -- The CXX compiler identification is GNU 11.4.0
+[0.701s] -- Detecting C compiler ABI info
+[1.057s] -- Detecting C compiler ABI info - done
+[1.077s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.078s] -- Detecting C compile features
+[1.079s] -- Detecting C compile features - done
+[1.084s] -- Detecting CXX compiler ABI info
+[1.612s] -- Detecting CXX compiler ABI info - done
+[1.661s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.662s] -- Detecting CXX compile features
+[1.662s] -- Detecting CXX compile features - done
+[1.703s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.697s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.907s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[4.456s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.539s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.647s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.758s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.955s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.482s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.506s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.157s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.278s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.578s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.680s] -- Looking for pthread.h
+[6.997s] -- Looking for pthread.h - found
+[6.997s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.276s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.278s] -- Found Threads: TRUE  
+[7.975s] -- Found rosidl_default_generators: 1.2.0 (/home/simulations/ros2_sims_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+[9.435s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[11.099s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.665s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.810s] [33mCMake Warning at /home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs_generate_interfaces.cmake:62 (message):
+[11.810s]   Rust actions generation is not implemented
+[11.810s] Call Stack (most recent call first):
+[11.810s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[11.810s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[11.810s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[11.810s] 
+[11.810s] [0m
+[12.036s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[12.056s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[12.182s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[12.183s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.183s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[12.183s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[12.274s] -- Found PythonExtra: .so  
+[12.573s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.878s] -- Added test 'lint_cmake' to check CMake code style
+[12.888s] -- Added test 'xmllint' to check XML markup files
+[12.896s] -- Configuring done
+[13.034s] -- Generating done
+[13.035s] -- Build files have been written to: /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces
+[13.075s] Invoked command in '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/ros2_navigationrobot_ws/src/navigation_robot_custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces
+[13.075s] Invoking command in '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces -- -j8 -l8
+[13.360s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[14.672s] [  2%] Built target navigation_robot_custom_interfaces__rs
+[14.768s] [  2%] Built target ament_cmake_python_copy_navigation_robot_custom_interfaces
+[14.945s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[17.035s] [  5%] Built target navigation_robot_custom_interfaces__cpp
+[18.044s] running egg_info
+[18.046s] creating navigation_robot_custom_interfaces.egg-info
+[18.047s] writing navigation_robot_custom_interfaces.egg-info/PKG-INFO
+[18.048s] writing dependency_links to navigation_robot_custom_interfaces.egg-info/dependency_links.txt
+[18.048s] writing top-level names to navigation_robot_custom_interfaces.egg-info/top_level.txt
+[18.049s] writing manifest file 'navigation_robot_custom_interfaces.egg-info/SOURCES.txt'
+[18.053s] reading manifest file 'navigation_robot_custom_interfaces.egg-info/SOURCES.txt'
+[18.054s] writing manifest file 'navigation_robot_custom_interfaces.egg-info/SOURCES.txt'
+[18.153s] [  5%] Built target ament_cmake_python_build_navigation_robot_custom_interfaces_egg
+[18.187s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.366s] [ 10%] [32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigation_robot_custom_interfaces/srv/find_closest_wall__type_support.cpp.o[0m
+[20.236s] [ 12%] [32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigation_robot_custom_interfaces/action/measure_lap_time__type_support.cpp.o[0m
+[21.734s] [ 15%] [32m[1mLinking CXX shared library libnavigation_robot_custom_interfaces__rosidl_typesupport_cpp.so[0m
+[21.936s] [ 15%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_cpp
+[21.977s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[23.707s] [ 20%] [32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__type_support.cpp.o[0m
+[24.884s] [ 22%] [32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigation_robot_custom_interfaces/action/detail/measure_lap_time__type_support.cpp.o[0m
+[26.884s] [ 25%] [32m[1mLinking CXX shared library libnavigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[27.185s] [ 25%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp
+[27.286s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[29.277s] [ 30%] [32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigation_robot_custom_interfaces/srv/detail/dds_fastrtps/find_closest_wall__type_support.cpp.o[0m
+[30.550s] [ 32%] [32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigation_robot_custom_interfaces/action/detail/dds_fastrtps/measure_lap_time__type_support.cpp.o[0m
+[32.282s] [ 35%] [32m[1mLinking CXX shared library libnavigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[32.666s] [ 35%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[32.753s] [ 37%] [34m[1mGenerating C code for ROS interfaces[0m
+[34.973s] [ 40%] [32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__functions.c.o[0m
+[35.186s] [ 42%] [32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/navigation_robot_custom_interfaces/action/detail/measure_lap_time__functions.c.o[0m
+[35.589s] [ 45%] [32m[1mLinking C shared library libnavigation_robot_custom_interfaces__rosidl_generator_c.so[0m
+[35.738s] [ 45%] Built target navigation_robot_custom_interfaces__rosidl_generator_c
+[35.771s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[37.471s] [ 50%] [32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__type_support_c.cpp.o[0m
+[38.535s] [ 52%] [32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigation_robot_custom_interfaces/action/detail/measure_lap_time__type_support_c.cpp.o[0m
+[39.790s] [ 55%] [32m[1mLinking CXX shared library libnavigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[40.101s] [ 55%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c
+[40.168s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[41.641s] [ 60%] [32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigation_robot_custom_interfaces/srv/find_closest_wall__type_support.cpp.o[0m
+[41.776s] [ 62%] [32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigation_robot_custom_interfaces/action/measure_lap_time__type_support.cpp.o[0m
+[41.976s] [ 65%] [32m[1mLinking CXX shared library libnavigation_robot_custom_interfaces__rosidl_typesupport_c.so[0m
+[42.181s] [ 65%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_c
+[42.241s] [ 67%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[43.965s] [ 70%] [32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__type_support.c.o[0m
+[44.143s] [ 72%] [32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigation_robot_custom_interfaces/action/detail/measure_lap_time__type_support.c.o[0m
+[44.273s] [ 75%] [32m[1mLinking C shared library libnavigation_robot_custom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[44.436s] [ 75%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_introspection_c
+[44.548s] [ 75%] Built target navigation_robot_custom_interfaces
+[44.689s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[48.457s] [ 77%] Built target navigation_robot_custom_interfaces__py
+[48.590s] [ 80%] [32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_robot_custom_interfaces/srv/_find_closest_wall_s.c.o[0m
+[49.005s] [ 82%] [32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_robot_custom_interfaces/action/_measure_lap_time_s.c.o[0m
+[49.383s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/navigation_robot_custom_interfaces/libnavigation_robot_custom_interfaces__rosidl_generator_py.so[0m
+[49.558s] [ 85%] Built target navigation_robot_custom_interfaces__rosidl_generator_py
+[49.663s] [ 87%] [32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[50.179s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[50.341s] [ 90%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[50.403s] [ 92%] [32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[50.883s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[51.056s] [ 95%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_c__pyext
+[51.170s] [ 97%] [32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[51.676s] [100%] [32m[1mLinking C shared library rosidl_generator_py/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[51.860s] [100%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[51.902s] Invoked command in '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces -- -j8 -l8
+[52.837s] Invoking command in '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces
+[52.854s] -- Install configuration: ""
+[52.855s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/navigation_robot_custom_interfaces
+[52.855s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces
+[52.856s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv
+[52.857s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail
+[52.859s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__functions.h
+[52.860s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__functions.c
+[52.861s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__type_support.h
+[52.861s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__struct.h
+[52.862s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/find_closest_wall.h
+[52.863s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg
+[52.863s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[52.863s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action
+[52.863s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail
+[52.864s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__struct.h
+[52.864s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__type_support.h
+[52.867s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__functions.h
+[52.868s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__functions.c
+[52.869s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/measure_lap_time.h
+[52.871s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/library_path.sh
+[52.871s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/library_path.dsv
+[52.872s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_generator_c.so
+[52.873s] -- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_generator_c.so" to ""
+[52.873s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces
+[52.873s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv
+[52.874s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail
+[52.874s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_c.h
+[52.874s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg
+[52.875s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[52.875s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action
+[52.875s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail
+[52.875s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_c.h
+[52.875s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[52.875s] -- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[52.876s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces
+[52.876s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv
+[52.876s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail
+[52.876s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__traits.hpp
+[52.876s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__builder.hpp
+[52.876s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__struct.hpp
+[52.876s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/find_closest_wall.hpp
+[52.877s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action
+[52.877s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail
+[52.877s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__builder.hpp
+[52.878s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__struct.hpp
+[52.878s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__traits.hpp
+[52.878s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/measure_lap_time.hpp
+[52.878s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces
+[52.878s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv
+[52.878s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail
+[52.879s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/dds_fastrtps
+[52.879s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_cpp.hpp
+[52.879s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg
+[52.879s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[52.879s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action
+[52.879s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail
+[52.880s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_cpp.hpp
+[52.880s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/dds_fastrtps
+[52.880s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[52.880s] -- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[52.880s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces
+[52.880s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv
+[52.881s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail
+[52.881s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_c.h
+[52.881s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__type_support.c
+[52.881s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg
+[52.881s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[52.881s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action
+[52.882s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail
+[52.882s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_c.h
+[52.882s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__type_support.c
+[52.882s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_introspection_c.so
+[52.884s] -- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[52.884s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_c.so
+[52.885s] -- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_c.so" to ""
+[52.885s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces
+[52.885s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv
+[52.885s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail
+[52.885s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__type_support.cpp
+[52.885s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_cpp.hpp
+[52.885s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action
+[52.885s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail
+[52.885s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__type_support.cpp
+[52.885s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_cpp.hpp
+[52.886s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[52.886s] -- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[52.886s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_cpp.so
+[52.886s] -- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_cpp.so" to ""
+[52.887s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/ament_index/resource_index/rust_packages/navigation_robot_custom_interfaces
+[52.887s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust
+[52.888s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/Cargo.toml
+[52.888s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src
+[52.888s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src/srv.rs
+[52.888s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src/lib.rs
+[52.888s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/build.rs
+[52.889s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust
+[52.889s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/Cargo.toml
+[52.889s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src
+[52.889s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src/srv.rs
+[52.889s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src/lib.rs
+[52.889s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/build.rs
+[52.889s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust
+[52.889s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/Cargo.toml
+[52.890s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src
+[52.890s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src/srv.rs
+[52.890s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src/lib.rs
+[52.890s] -- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/build.rs
+[52.890s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/pythonpath.sh
+[52.890s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/pythonpath.dsv
+[52.891s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces-0.0.0-py3.10.egg-info
+[52.891s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[52.892s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[52.892s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[52.892s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[52.892s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces
+[52.892s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/libnavigation_robot_custom_interfaces__rosidl_generator_py.so
+[52.892s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[52.935s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv
+[52.935s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv/_find_closest_wall_s.c
+[52.935s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv/_find_closest_wall.py
+[52.936s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv/__init__.py
+[52.939s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[52.940s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[52.940s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/__init__.py
+[52.940s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[52.940s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[52.940s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[52.942s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action
+[52.942s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action/_measure_lap_time_s.c
+[52.942s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action/__init__.py
+[52.942s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action/_measure_lap_time.py
+[53.134s] Listing '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces'...
+[53.135s] Compiling '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/__init__.py'...
+[53.135s] Listing '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action'...
+[53.135s] Compiling '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action/__init__.py'...
+[53.135s] Compiling '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action/_measure_lap_time.py'...
+[53.135s] Listing '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv'...
+[53.135s] Compiling '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv/__init__.py'...
+[53.135s] Compiling '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv/_find_closest_wall.py'...
+[53.143s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[53.143s] -- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[53.144s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[53.145s] -- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[53.145s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[53.146s] -- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[53.146s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_generator_py.so
+[53.146s] -- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_generator_py.so" to ""
+[53.146s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/srv/FindClosestWall.idl
+[53.148s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/action/MeasureLapTime.idl
+[53.148s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/srv/FindClosestWall.srv
+[53.149s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/srv/FindClosestWall_Request.msg
+[53.149s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/srv/FindClosestWall_Response.msg
+[53.149s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/action/MeasureLapTime.action
+[53.149s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/navigation_robot_custom_interfaces
+[53.149s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/navigation_robot_custom_interfaces
+[53.150s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/ament_prefix_path.sh
+[53.150s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/ament_prefix_path.dsv
+[53.150s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/path.sh
+[53.150s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/path.dsv
+[53.151s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/local_setup.bash
+[53.151s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/local_setup.sh
+[53.151s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/local_setup.zsh
+[53.151s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/local_setup.dsv
+[53.152s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.dsv
+[53.152s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/ament_index/resource_index/packages/navigation_robot_custom_interfaces
+[53.152s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_cExport.cmake
+[53.153s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[53.153s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[53.153s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[53.154s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_cppExport.cmake
+[53.154s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[53.154s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[53.154s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[53.154s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[53.155s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_cExport.cmake
+[53.155s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[53.156s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[53.156s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[53.156s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[53.157s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[53.157s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_pyExport.cmake
+[53.160s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[53.161s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[53.161s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.162s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.162s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[53.162s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[53.164s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[53.164s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[53.164s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfacesConfig.cmake
+[53.165s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfacesConfig-version.cmake
+[53.177s] -- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.xml
+[53.177s] Invoked command in '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces

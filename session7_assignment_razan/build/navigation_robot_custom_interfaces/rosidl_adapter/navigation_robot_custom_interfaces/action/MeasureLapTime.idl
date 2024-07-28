@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from navigation_robot_custom_interfaces/action/MeasureLapTime.action
+// generated code does not contain a copyright notice
+
+
+module navigation_robot_custom_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "MeasureLapTime.action")
+    struct MeasureLapTime_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Result definition")
+    struct MeasureLapTime_Result {
+      float total_time;
+    };
+    @verbatim (language="comment", text=
+      "Feedback definition")
+    struct MeasureLapTime_Feedback {
+      float elapsed_time;
+    };
+  };
+};

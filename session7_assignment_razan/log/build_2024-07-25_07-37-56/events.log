@@ -1,0 +1,895 @@
+[0.000000] (-) TimerEvent: {}
+[0.000719] (navigation_robot_custom_interfaces) JobQueued: {'identifier': 'navigation_robot_custom_interfaces', 'dependencies': OrderedDict()}
+[0.000789] (session7_turtlebot3_robot) JobQueued: {'identifier': 'session7_turtlebot3_robot', 'dependencies': OrderedDict([('navigation_robot_custom_interfaces', '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces')])}
+[0.003582] (navigation_robot_custom_interfaces) JobStarted: {'identifier': 'navigation_robot_custom_interfaces'}
+[0.084715] (navigation_robot_custom_interfaces) JobProgress: {'identifier': 'navigation_robot_custom_interfaces', 'progress': 'cmake'}
+[0.085838] (navigation_robot_custom_interfaces) JobProgress: {'identifier': 'navigation_robot_custom_interfaces', 'progress': 'build'}
+[0.087113] (navigation_robot_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://4_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '4_xterm'), ('PWD', '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_navigationrobot_ws/install:/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/python3.10/site-packages:/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '4_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://4_xterm:11311'), ('ROS_HOSTNAME', '4_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '811064'), ('SLOT_PREFIX', 'a2992e19-646c-461c-a9db-6851f6035190'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25888'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20004'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.095086] (-) TimerEvent: {}
+[0.195963] (-) TimerEvent: {}
+[0.201523] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.296038] (-) TimerEvent: {}
+[0.398965] (-) TimerEvent: {}
+[0.499313] (-) TimerEvent: {}
+[0.601391] (-) TimerEvent: {}
+[0.697544] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.701506] (-) TimerEvent: {}
+[0.801870] (-) TimerEvent: {}
+[0.810138] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.815510] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.825871] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.901605] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.902165] (-) TimerEvent: {}
+[0.925513] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.006430] (-) TimerEvent: {}
+[1.107207] (-) TimerEvent: {}
+[1.125729] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.129165] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.207318] (-) TimerEvent: {}
+[1.307858] (-) TimerEvent: {}
+[1.409096] (-) TimerEvent: {}
+[1.509471] (-) TimerEvent: {}
+[1.609873] (-) TimerEvent: {}
+[1.710280] (-) TimerEvent: {}
+[1.810724] (-) TimerEvent: {}
+[1.878009] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.911007] (-) TimerEvent: {}
+[2.011435] (-) TimerEvent: {}
+[2.111752] (-) TimerEvent: {}
+[2.212354] (-) TimerEvent: {}
+[2.314525] (-) TimerEvent: {}
+[2.415037] (-) TimerEvent: {}
+[2.417908] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/home/simulations/ros2_sims_ws/install/rosidl_default_generators/share/rosidl_default_generators/cmake)\n'}
+[2.515151] (-) TimerEvent: {}
+[2.615851] (-) TimerEvent: {}
+[2.717172] (-) TimerEvent: {}
+[2.817754] (-) TimerEvent: {}
+[2.918124] (-) TimerEvent: {}
+[3.018473] (-) TimerEvent: {}
+[3.121340] (-) TimerEvent: {}
+[3.221666] (-) TimerEvent: {}
+[3.323131] (-) TimerEvent: {}
+[3.423596] (-) TimerEvent: {}
+[3.524024] (-) TimerEvent: {}
+[3.624485] (-) TimerEvent: {}
+[3.724845] (-) TimerEvent: {}
+[3.825274] (-) TimerEvent: {}
+[3.906873] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.925426] (-) TimerEvent: {}
+[4.026131] (-) TimerEvent: {}
+[4.127731] (-) TimerEvent: {}
+[4.276735] (-) TimerEvent: {}
+[4.378141] (-) TimerEvent: {}
+[4.478850] (-) TimerEvent: {}
+[4.579222] (-) TimerEvent: {}
+[4.679602] (-) TimerEvent: {}
+[4.780034] (-) TimerEvent: {}
+[4.880456] (-) TimerEvent: {}
+[4.981917] (-) TimerEvent: {}
+[5.082812] (-) TimerEvent: {}
+[5.183604] (-) TimerEvent: {}
+[5.283970] (-) TimerEvent: {}
+[5.384362] (-) TimerEvent: {}
+[5.422502] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.484909] (-) TimerEvent: {}
+[5.585383] (-) TimerEvent: {}
+[5.685723] (-) TimerEvent: {}
+[5.791259] (-) TimerEvent: {}
+[5.891742] (-) TimerEvent: {}
+[5.992637] (-) TimerEvent: {}
+[6.019344] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.092806] (-) TimerEvent: {}
+[6.097230] (navigation_robot_custom_interfaces) StderrLine: {'line': b'\x1b[33mCMake Warning at /home/simulations/ros2_sims_ws/install/rosidl_generator_rs/share/rosidl_generator_rs/cmake/rosidl_generator_rs_generate_interfaces.cmake:62 (message):\n'}
+[6.097525] (navigation_robot_custom_interfaces) StderrLine: {'line': b'  Rust actions generation is not implemented\n'}
+[6.097697] (navigation_robot_custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.097823] (navigation_robot_custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[6.097960] (navigation_robot_custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[6.098080] (navigation_robot_custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:15 (rosidl_generate_interfaces)\n'}
+[6.098197] (navigation_robot_custom_interfaces) StderrLine: {'line': b'\n'}
+[6.098325] (navigation_robot_custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[6.192981] (-) TimerEvent: {}
+[6.294122] (-) TimerEvent: {}
+[6.297713] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.394236] (-) TimerEvent: {}
+[6.401782] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.402002] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.402081] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[6.494650] (-) TimerEvent: {}
+[6.581620] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.594873] (-) TimerEvent: {}
+[6.597031] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.598933] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.601862] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.695010] (-) TimerEvent: {}
+[6.724691] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[6.730888] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces\n'}
+[6.796253] (-) TimerEvent: {}
+[6.896616] (-) TimerEvent: {}
+[6.928782] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[6.996830] (-) TimerEvent: {}
+[7.097421] (-) TimerEvent: {}
+[7.198020] (-) TimerEvent: {}
+[7.298364] (-) TimerEvent: {}
+[7.401461] (-) TimerEvent: {}
+[7.507880] (-) TimerEvent: {}
+[7.608825] (-) TimerEvent: {}
+[7.709177] (-) TimerEvent: {}
+[7.809546] (-) TimerEvent: {}
+[7.909919] (-) TimerEvent: {}
+[8.010592] (-) TimerEvent: {}
+[8.111012] (-) TimerEvent: {}
+[8.112453] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  2%] Built target navigation_robot_custom_interfaces__rs\n'}
+[8.212627] (-) TimerEvent: {}
+[8.223412] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_navigation_robot_custom_interfaces\n'}
+[8.312867] (-) TimerEvent: {}
+[8.316393] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[8.412929] (-) TimerEvent: {}
+[8.513391] (-) TimerEvent: {}
+[8.614047] (-) TimerEvent: {}
+[8.714787] (-) TimerEvent: {}
+[8.815578] (-) TimerEvent: {}
+[8.916881] (-) TimerEvent: {}
+[9.017586] (-) TimerEvent: {}
+[9.117913] (-) TimerEvent: {}
+[9.218686] (-) TimerEvent: {}
+[9.319206] (-) TimerEvent: {}
+[9.421309] (-) TimerEvent: {}
+[9.521801] (-) TimerEvent: {}
+[9.676144] (-) TimerEvent: {}
+[9.776627] (-) TimerEvent: {}
+[9.876986] (-) TimerEvent: {}
+[9.977420] (-) TimerEvent: {}
+[10.077787] (-) TimerEvent: {}
+[10.179830] (-) TimerEvent: {}
+[10.280241] (-) TimerEvent: {}
+[10.323184] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  5%] Built target navigation_robot_custom_interfaces__cpp\n'}
+[10.380374] (-) TimerEvent: {}
+[10.481261] (-) TimerEvent: {}
+[10.581659] (-) TimerEvent: {}
+[10.682102] (-) TimerEvent: {}
+[10.782480] (-) TimerEvent: {}
+[10.883412] (-) TimerEvent: {}
+[10.983750] (-) TimerEvent: {}
+[11.086178] (-) TimerEvent: {}
+[11.186731] (-) TimerEvent: {}
+[11.287291] (-) TimerEvent: {}
+[11.388439] (-) TimerEvent: {}
+[11.390398] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[11.391493] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'writing navigation_robot_custom_interfaces.egg-info/PKG-INFO\n'}
+[11.392795] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'writing dependency_links to navigation_robot_custom_interfaces.egg-info/dependency_links.txt\n'}
+[11.393136] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'writing top-level names to navigation_robot_custom_interfaces.egg-info/top_level.txt\n'}
+[11.396147] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"reading manifest file 'navigation_robot_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[11.398732] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'navigation_robot_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[11.488573] (-) TimerEvent: {}
+[11.491760] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_navigation_robot_custom_interfaces_egg\n'}
+[11.515097] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.588707] (-) TimerEvent: {}
+[11.689550] (-) TimerEvent: {}
+[11.791246] (-) TimerEvent: {}
+[11.892068] (-) TimerEvent: {}
+[11.994539] (-) TimerEvent: {}
+[12.096499] (-) TimerEvent: {}
+[12.196810] (-) TimerEvent: {}
+[12.297179] (-) TimerEvent: {}
+[12.398024] (-) TimerEvent: {}
+[12.499164] (-) TimerEvent: {}
+[12.599481] (-) TimerEvent: {}
+[12.700244] (-) TimerEvent: {}
+[12.800606] (-) TimerEvent: {}
+[12.816007] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navigation_robot_custom_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[12.886637] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigation_robot_custom_interfaces/srv/find_closest_wall__type_support.cpp.o\x1b[0m\n'}
+[12.900744] (-) TimerEvent: {}
+[13.002713] (-) TimerEvent: {}
+[13.103090] (-) TimerEvent: {}
+[13.203488] (-) TimerEvent: {}
+[13.304141] (-) TimerEvent: {}
+[13.404873] (-) TimerEvent: {}
+[13.505206] (-) TimerEvent: {}
+[13.605870] (-) TimerEvent: {}
+[13.706703] (-) TimerEvent: {}
+[13.807089] (-) TimerEvent: {}
+[13.907437] (-) TimerEvent: {}
+[14.007918] (-) TimerEvent: {}
+[14.108665] (-) TimerEvent: {}
+[14.209399] (-) TimerEvent: {}
+[14.310423] (-) TimerEvent: {}
+[14.410977] (-) TimerEvent: {}
+[14.511359] (-) TimerEvent: {}
+[14.612805] (-) TimerEvent: {}
+[14.714071] (-) TimerEvent: {}
+[14.815222] (-) TimerEvent: {}
+[14.916132] (-) TimerEvent: {}
+[15.016895] (-) TimerEvent: {}
+[15.117786] (-) TimerEvent: {}
+[15.218196] (-) TimerEvent: {}
+[15.318608] (-) TimerEvent: {}
+[15.419190] (-) TimerEvent: {}
+[15.519936] (-) TimerEvent: {}
+[15.598244] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navigation_robot_custom_interfaces/action/measure_lap_time__type_support.cpp.o\x1b[0m\n'}
+[15.620099] (-) TimerEvent: {}
+[15.720847] (-) TimerEvent: {}
+[15.876423] (-) TimerEvent: {}
+[15.977199] (-) TimerEvent: {}
+[16.077614] (-) TimerEvent: {}
+[16.179013] (-) TimerEvent: {}
+[16.279352] (-) TimerEvent: {}
+[16.379754] (-) TimerEvent: {}
+[16.480166] (-) TimerEvent: {}
+[16.580543] (-) TimerEvent: {}
+[16.680960] (-) TimerEvent: {}
+[16.781352] (-) TimerEvent: {}
+[16.881747] (-) TimerEvent: {}
+[16.982176] (-) TimerEvent: {}
+[17.082541] (-) TimerEvent: {}
+[17.183658] (-) TimerEvent: {}
+[17.218210] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation_robot_custom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[17.283809] (-) TimerEvent: {}
+[17.384172] (-) TimerEvent: {}
+[17.485738] (-) TimerEvent: {}
+[17.587621] (-) TimerEvent: {}
+[17.688003] (-) TimerEvent: {}
+[17.788450] (-) TimerEvent: {}
+[17.889626] (-) TimerEvent: {}
+[17.992050] (-) TimerEvent: {}
+[18.092379] (-) TimerEvent: {}
+[18.192741] (-) TimerEvent: {}
+[18.293091] (-) TimerEvent: {}
+[18.393427] (-) TimerEvent: {}
+[18.426096] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 15%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_cpp\n'}
+[18.493914] (-) TimerEvent: {}
+[18.497577] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[18.594030] (-) TimerEvent: {}
+[18.696568] (-) TimerEvent: {}
+[18.796903] (-) TimerEvent: {}
+[18.904567] (-) TimerEvent: {}
+[19.004949] (-) TimerEvent: {}
+[19.106320] (-) TimerEvent: {}
+[19.206696] (-) TimerEvent: {}
+[19.307093] (-) TimerEvent: {}
+[19.407435] (-) TimerEvent: {}
+[19.508475] (-) TimerEvent: {}
+[19.609056] (-) TimerEvent: {}
+[19.709434] (-) TimerEvent: {}
+[19.809833] (-) TimerEvent: {}
+[19.902277] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[19.909920] (-) TimerEvent: {}
+[19.993144] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__type_support.cpp.o\x1b[0m\n'}
+[20.010070] (-) TimerEvent: {}
+[20.110416] (-) TimerEvent: {}
+[20.211036] (-) TimerEvent: {}
+[20.311434] (-) TimerEvent: {}
+[20.412562] (-) TimerEvent: {}
+[20.513175] (-) TimerEvent: {}
+[20.613539] (-) TimerEvent: {}
+[20.713910] (-) TimerEvent: {}
+[20.815033] (-) TimerEvent: {}
+[20.916329] (-) TimerEvent: {}
+[21.017332] (-) TimerEvent: {}
+[21.118215] (-) TimerEvent: {}
+[21.218603] (-) TimerEvent: {}
+[21.229524] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navigation_robot_custom_interfaces/action/detail/measure_lap_time__type_support.cpp.o\x1b[0m\n'}
+[21.318731] (-) TimerEvent: {}
+[21.420450] (-) TimerEvent: {}
+[21.523400] (-) TimerEvent: {}
+[21.623889] (-) TimerEvent: {}
+[21.724366] (-) TimerEvent: {}
+[21.824740] (-) TimerEvent: {}
+[21.925718] (-) TimerEvent: {}
+[22.026572] (-) TimerEvent: {}
+[22.127556] (-) TimerEvent: {}
+[22.276096] (-) TimerEvent: {}
+[22.376477] (-) TimerEvent: {}
+[22.476875] (-) TimerEvent: {}
+[22.579655] (-) TimerEvent: {}
+[22.680167] (-) TimerEvent: {}
+[22.780588] (-) TimerEvent: {}
+[22.882027] (-) TimerEvent: {}
+[22.983356] (-) TimerEvent: {}
+[23.014227] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[23.083868] (-) TimerEvent: {}
+[23.184592] (-) TimerEvent: {}
+[23.286572] (-) TimerEvent: {}
+[23.387675] (-) TimerEvent: {}
+[23.394794] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 25%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[23.423321] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[23.487784] (-) TimerEvent: {}
+[23.588480] (-) TimerEvent: {}
+[23.690050] (-) TimerEvent: {}
+[23.790958] (-) TimerEvent: {}
+[23.891486] (-) TimerEvent: {}
+[23.991913] (-) TimerEvent: {}
+[24.092876] (-) TimerEvent: {}
+[24.193759] (-) TimerEvent: {}
+[24.294121] (-) TimerEvent: {}
+[24.394791] (-) TimerEvent: {}
+[24.499309] (-) TimerEvent: {}
+[24.601622] (-) TimerEvent: {}
+[24.702846] (-) TimerEvent: {}
+[24.804157] (-) TimerEvent: {}
+[24.904517] (-) TimerEvent: {}
+[25.005021] (-) TimerEvent: {}
+[25.107262] (-) TimerEvent: {}
+[25.126774] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[25.205502] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigation_robot_custom_interfaces/srv/detail/dds_fastrtps/find_closest_wall__type_support.cpp.o\x1b[0m\n'}
+[25.207384] (-) TimerEvent: {}
+[25.308034] (-) TimerEvent: {}
+[25.408357] (-) TimerEvent: {}
+[25.508872] (-) TimerEvent: {}
+[25.609309] (-) TimerEvent: {}
+[25.709667] (-) TimerEvent: {}
+[25.810042] (-) TimerEvent: {}
+[25.912357] (-) TimerEvent: {}
+[26.012718] (-) TimerEvent: {}
+[26.113928] (-) TimerEvent: {}
+[26.214640] (-) TimerEvent: {}
+[26.315551] (-) TimerEvent: {}
+[26.415956] (-) TimerEvent: {}
+[26.516394] (-) TimerEvent: {}
+[26.616768] (-) TimerEvent: {}
+[26.717417] (-) TimerEvent: {}
+[26.731257] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navigation_robot_custom_interfaces/action/detail/dds_fastrtps/measure_lap_time__type_support.cpp.o\x1b[0m\n'}
+[26.817543] (-) TimerEvent: {}
+[26.917935] (-) TimerEvent: {}
+[27.020586] (-) TimerEvent: {}
+[27.121729] (-) TimerEvent: {}
+[27.222982] (-) TimerEvent: {}
+[27.323387] (-) TimerEvent: {}
+[27.423833] (-) TimerEvent: {}
+[27.576040] (-) TimerEvent: {}
+[27.676416] (-) TimerEvent: {}
+[27.776816] (-) TimerEvent: {}
+[27.877243] (-) TimerEvent: {}
+[27.977719] (-) TimerEvent: {}
+[28.078236] (-) TimerEvent: {}
+[28.178600] (-) TimerEvent: {}
+[28.279439] (-) TimerEvent: {}
+[28.380206] (-) TimerEvent: {}
+[28.427201] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[28.480440] (-) TimerEvent: {}
+[28.580848] (-) TimerEvent: {}
+[28.681343] (-) TimerEvent: {}
+[28.718557] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 35%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[28.781465] (-) TimerEvent: {}
+[28.784089] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[28.881596] (-) TimerEvent: {}
+[28.981978] (-) TimerEvent: {}
+[29.082334] (-) TimerEvent: {}
+[29.182812] (-) TimerEvent: {}
+[29.283150] (-) TimerEvent: {}
+[29.383504] (-) TimerEvent: {}
+[29.484334] (-) TimerEvent: {}
+[29.584706] (-) TimerEvent: {}
+[29.685118] (-) TimerEvent: {}
+[29.785813] (-) TimerEvent: {}
+[29.886242] (-) TimerEvent: {}
+[29.986629] (-) TimerEvent: {}
+[30.086952] (-) TimerEvent: {}
+[30.187417] (-) TimerEvent: {}
+[30.288040] (-) TimerEvent: {}
+[30.388390] (-) TimerEvent: {}
+[30.489429] (-) TimerEvent: {}
+[30.591509] (-) TimerEvent: {}
+[30.692490] (-) TimerEvent: {}
+[30.793007] (-) TimerEvent: {}
+[30.893424] (-) TimerEvent: {}
+[30.994152] (-) TimerEvent: {}
+[31.014779] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navigation_robot_custom_interfaces__rosidl_generator_c\x1b[0m\n'}
+[31.086836] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__functions.c.o\x1b[0m\n'}
+[31.094263] (-) TimerEvent: {}
+[31.194663] (-) TimerEvent: {}
+[31.295084] (-) TimerEvent: {}
+[31.395432] (-) TimerEvent: {}
+[31.496191] (-) TimerEvent: {}
+[31.596533] (-) TimerEvent: {}
+[31.696868] (-) TimerEvent: {}
+[31.797229] (-) TimerEvent: {}
+[31.897565] (-) TimerEvent: {}
+[31.997933] (-) TimerEvent: {}
+[32.098326] (-) TimerEvent: {}
+[32.198683] (-) TimerEvent: {}
+[32.299195] (-) TimerEvent: {}
+[32.399574] (-) TimerEvent: {}
+[32.499912] (-) TimerEvent: {}
+[32.600878] (-) TimerEvent: {}
+[32.701527] (-) TimerEvent: {}
+[32.802192] (-) TimerEvent: {}
+[32.903084] (-) TimerEvent: {}
+[33.003500] (-) TimerEvent: {}
+[33.103864] (-) TimerEvent: {}
+[33.205041] (-) TimerEvent: {}
+[33.305415] (-) TimerEvent: {}
+[33.405852] (-) TimerEvent: {}
+[33.506894] (-) TimerEvent: {}
+[33.607667] (-) TimerEvent: {}
+[33.708882] (-) TimerEvent: {}
+[33.809287] (-) TimerEvent: {}
+[33.836592] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/navigation_robot_custom_interfaces/action/detail/measure_lap_time__functions.c.o\x1b[0m\n'}
+[33.909672] (-) TimerEvent: {}
+[34.013819] (-) TimerEvent: {}
+[34.116044] (-) TimerEvent: {}
+[34.216421] (-) TimerEvent: {}
+[34.296826] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libnavigation_robot_custom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[34.316613] (-) TimerEvent: {}
+[34.417258] (-) TimerEvent: {}
+[34.429106] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 45%] Built target navigation_robot_custom_interfaces__rosidl_generator_c\n'}
+[34.517485] (-) TimerEvent: {}
+[34.525555] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[34.617606] (-) TimerEvent: {}
+[34.718427] (-) TimerEvent: {}
+[34.819610] (-) TimerEvent: {}
+[34.920609] (-) TimerEvent: {}
+[35.021966] (-) TimerEvent: {}
+[35.122483] (-) TimerEvent: {}
+[35.224084] (-) TimerEvent: {}
+[35.324922] (-) TimerEvent: {}
+[35.425870] (-) TimerEvent: {}
+[35.528248] (-) TimerEvent: {}
+[35.676068] (-) TimerEvent: {}
+[35.776481] (-) TimerEvent: {}
+[35.876960] (-) TimerEvent: {}
+[35.977633] (-) TimerEvent: {}
+[36.078628] (-) TimerEvent: {}
+[36.179000] (-) TimerEvent: {}
+[36.279860] (-) TimerEvent: {}
+[36.378891] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[36.379948] (-) TimerEvent: {}
+[36.417473] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__type_support_c.cpp.o\x1b[0m\n'}
+[36.480046] (-) TimerEvent: {}
+[36.580474] (-) TimerEvent: {}
+[36.680937] (-) TimerEvent: {}
+[36.781276] (-) TimerEvent: {}
+[36.881654] (-) TimerEvent: {}
+[36.982050] (-) TimerEvent: {}
+[37.082460] (-) TimerEvent: {}
+[37.182871] (-) TimerEvent: {}
+[37.283332] (-) TimerEvent: {}
+[37.384298] (-) TimerEvent: {}
+[37.486045] (-) TimerEvent: {}
+[37.520235] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navigation_robot_custom_interfaces/action/detail/measure_lap_time__type_support_c.cpp.o\x1b[0m\n'}
+[37.586175] (-) TimerEvent: {}
+[37.687908] (-) TimerEvent: {}
+[37.788362] (-) TimerEvent: {}
+[37.888862] (-) TimerEvent: {}
+[37.989701] (-) TimerEvent: {}
+[38.091019] (-) TimerEvent: {}
+[38.191407] (-) TimerEvent: {}
+[38.291749] (-) TimerEvent: {}
+[38.392545] (-) TimerEvent: {}
+[38.492919] (-) TimerEvent: {}
+[38.593329] (-) TimerEvent: {}
+[38.694416] (-) TimerEvent: {}
+[38.697695] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[38.794553] (-) TimerEvent: {}
+[38.897638] (-) TimerEvent: {}
+[38.978013] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 55%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[38.997944] (-) TimerEvent: {}
+[39.008262] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[39.098244] (-) TimerEvent: {}
+[39.198604] (-) TimerEvent: {}
+[39.298991] (-) TimerEvent: {}
+[39.399678] (-) TimerEvent: {}
+[39.500601] (-) TimerEvent: {}
+[39.601717] (-) TimerEvent: {}
+[39.702182] (-) TimerEvent: {}
+[39.802530] (-) TimerEvent: {}
+[39.902950] (-) TimerEvent: {}
+[40.003303] (-) TimerEvent: {}
+[40.103699] (-) TimerEvent: {}
+[40.204463] (-) TimerEvent: {}
+[40.297730] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navigation_robot_custom_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[40.304577] (-) TimerEvent: {}
+[40.384130] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigation_robot_custom_interfaces/srv/find_closest_wall__type_support.cpp.o\x1b[0m\n'}
+[40.405102] (-) TimerEvent: {}
+[40.489375] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/navigation_robot_custom_interfaces/action/measure_lap_time__type_support.cpp.o\x1b[0m\n'}
+[40.505748] (-) TimerEvent: {}
+[40.606603] (-) TimerEvent: {}
+[40.681457] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libnavigation_robot_custom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[40.706817] (-) TimerEvent: {}
+[40.808464] (-) TimerEvent: {}
+[40.818549] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 65%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_c\n'}
+[40.885895] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[40.908577] (-) TimerEvent: {}
+[41.009444] (-) TimerEvent: {}
+[41.109820] (-) TimerEvent: {}
+[41.210162] (-) TimerEvent: {}
+[41.310837] (-) TimerEvent: {}
+[41.411171] (-) TimerEvent: {}
+[41.512035] (-) TimerEvent: {}
+[41.612574] (-) TimerEvent: {}
+[41.712950] (-) TimerEvent: {}
+[41.813275] (-) TimerEvent: {}
+[41.914583] (-) TimerEvent: {}
+[42.015250] (-) TimerEvent: {}
+[42.116073] (-) TimerEvent: {}
+[42.217257] (-) TimerEvent: {}
+[42.317956] (-) TimerEvent: {}
+[42.418403] (-) TimerEvent: {}
+[42.483070] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navigation_robot_custom_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[42.518536] (-) TimerEvent: {}
+[42.523924] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__type_support.c.o\x1b[0m\n'}
+[42.619049] (-) TimerEvent: {}
+[42.691437] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navigation_robot_custom_interfaces/action/detail/measure_lap_time__type_support.c.o\x1b[0m\n'}
+[42.719086] (-) TimerEvent: {}
+[42.819891] (-) TimerEvent: {}
+[42.913361] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking C shared library libnavigation_robot_custom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[42.919963] (-) TimerEvent: {}
+[43.020434] (-) TimerEvent: {}
+[43.083149] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 75%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[43.120565] (-) TimerEvent: {}
+[43.136885] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 75%] Built target navigation_robot_custom_interfaces\n'}
+[43.220692] (-) TimerEvent: {}
+[43.227889] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[43.321625] (-) TimerEvent: {}
+[43.422916] (-) TimerEvent: {}
+[43.523659] (-) TimerEvent: {}
+[43.625002] (-) TimerEvent: {}
+[43.725715] (-) TimerEvent: {}
+[43.826888] (-) TimerEvent: {}
+[43.927211] (-) TimerEvent: {}
+[44.076074] (-) TimerEvent: {}
+[44.176570] (-) TimerEvent: {}
+[44.276935] (-) TimerEvent: {}
+[44.379246] (-) TimerEvent: {}
+[44.479936] (-) TimerEvent: {}
+[44.580601] (-) TimerEvent: {}
+[44.681142] (-) TimerEvent: {}
+[44.781613] (-) TimerEvent: {}
+[44.881934] (-) TimerEvent: {}
+[44.982756] (-) TimerEvent: {}
+[45.083090] (-) TimerEvent: {}
+[45.184140] (-) TimerEvent: {}
+[45.285018] (-) TimerEvent: {}
+[45.385862] (-) TimerEvent: {}
+[45.487021] (-) TimerEvent: {}
+[45.588373] (-) TimerEvent: {}
+[45.689380] (-) TimerEvent: {}
+[45.789770] (-) TimerEvent: {}
+[45.891365] (-) TimerEvent: {}
+[45.991843] (-) TimerEvent: {}
+[46.092372] (-) TimerEvent: {}
+[46.192940] (-) TimerEvent: {}
+[46.293643] (-) TimerEvent: {}
+[46.395559] (-) TimerEvent: {}
+[46.495907] (-) TimerEvent: {}
+[46.596902] (-) TimerEvent: {}
+[46.697341] (-) TimerEvent: {}
+[46.797442] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 77%] Built target navigation_robot_custom_interfaces__py\n'}
+[46.797706] (-) TimerEvent: {}
+[46.878463] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navigation_robot_custom_interfaces__rosidl_generator_py\x1b[0m\n'}
+[46.897939] (-) TimerEvent: {}
+[46.908526] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_robot_custom_interfaces/srv/_find_closest_wall_s.c.o\x1b[0m\n'}
+[46.998055] (-) TimerEvent: {}
+[47.098408] (-) TimerEvent: {}
+[47.198803] (-) TimerEvent: {}
+[47.299230] (-) TimerEvent: {}
+[47.400573] (-) TimerEvent: {}
+[47.502563] (-) TimerEvent: {}
+[47.603042] (-) TimerEvent: {}
+[47.705112] (-) TimerEvent: {}
+[47.805811] (-) TimerEvent: {}
+[47.906904] (-) TimerEvent: {}
+[48.008171] (-) TimerEvent: {}
+[48.108814] (-) TimerEvent: {}
+[48.200101] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/navigation_robot_custom_interfaces/action/_measure_lap_time_s.c.o\x1b[0m\n'}
+[48.208922] (-) TimerEvent: {}
+[48.310116] (-) TimerEvent: {}
+[48.410496] (-) TimerEvent: {}
+[48.512090] (-) TimerEvent: {}
+[48.612872] (-) TimerEvent: {}
+[48.631384] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/navigation_robot_custom_interfaces/libnavigation_robot_custom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[48.712987] (-) TimerEvent: {}
+[48.813365] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 85%] Built target navigation_robot_custom_interfaces__rosidl_generator_py\n'}
+[48.813616] (-) TimerEvent: {}
+[48.884988] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[48.913757] (-) TimerEvent: {}
+[48.924613] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[49.013897] (-) TimerEvent: {}
+[49.114630] (-) TimerEvent: {}
+[49.215007] (-) TimerEvent: {}
+[49.315643] (-) TimerEvent: {}
+[49.408382] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[49.415753] (-) TimerEvent: {}
+[49.516188] (-) TimerEvent: {}
+[49.587444] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 90%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[49.613534] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navigation_robot_custom_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[49.616322] (-) TimerEvent: {}
+[49.697917] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[49.716482] (-) TimerEvent: {}
+[49.817114] (-) TimerEvent: {}
+[49.918755] (-) TimerEvent: {}
+[50.019150] (-) TimerEvent: {}
+[50.084299] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[50.119466] (-) TimerEvent: {}
+[50.222059] (-) TimerEvent: {}
+[50.225059] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 95%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[50.302018] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target navigation_robot_custom_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[50.322129] (-) TimerEvent: {}
+[50.378489] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[50.422284] (-) TimerEvent: {}
+[50.522904] (-) TimerEvent: {}
+[50.623444] (-) TimerEvent: {}
+[50.724236] (-) TimerEvent: {}
+[50.785124] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[50.824317] (-) TimerEvent: {}
+[50.923584] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'[100%] Built target navigation_robot_custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[50.924432] (-) TimerEvent: {}
+[50.982494] (navigation_robot_custom_interfaces) CommandEnded: {'returncode': 0}
+[51.024536] (-) TimerEvent: {}
+[51.124884] (-) TimerEvent: {}
+[51.225513] (-) TimerEvent: {}
+[51.327401] (-) TimerEvent: {}
+[51.428280] (-) TimerEvent: {}
+[51.529653] (-) TimerEvent: {}
+[51.630827] (-) TimerEvent: {}
+[51.691370] (navigation_robot_custom_interfaces) JobProgress: {'identifier': 'navigation_robot_custom_interfaces', 'progress': 'install'}
+[51.710314] (navigation_robot_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces'], 'cwd': '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces', 'env': OrderedDict([('ROS_VERSION', '2'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('GAZEBO_MASTER_URI', 'http://4_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '4_xterm'), ('PWD', '/home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_navigationrobot_ws/install:/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/python3.10/site-packages:/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '4_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://4_xterm:11311'), ('ROS_HOSTNAME', '4_xterm'), ('LD_LIBRARY_PATH', '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '811064'), ('SLOT_PREFIX', 'a2992e19-646c-461c-a9db-6851f6035190'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25888'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20004'), ('_', '/usr/bin/env')]), 'shell': False}
+[51.726738] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[51.727245] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/navigation_robot_custom_interfaces\n'}
+[51.730912] (-) TimerEvent: {}
+[51.776243] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces\n'}
+[51.776503] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv\n'}
+[51.777744] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail\n'}
+[51.777849] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__functions.h\n'}
+[51.777924] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__functions.c\n'}
+[51.777985] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__type_support.h\n'}
+[51.778048] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__struct.h\n'}
+[51.778133] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/find_closest_wall.h\n'}
+[51.778214] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg\n'}
+[51.778345] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[51.778458] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action\n'}
+[51.778569] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail\n'}
+[51.778857] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__struct.h\n'}
+[51.779033] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__type_support.h\n'}
+[51.779146] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__functions.h\n'}
+[51.779268] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__functions.c\n'}
+[51.779445] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/measure_lap_time.h\n'}
+[51.779546] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/library_path.sh\n'}
+[51.779661] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/library_path.dsv\n'}
+[51.784328] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_generator_c.so\n'}
+[51.784465] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_generator_c.so" to ""\n'}
+[51.784668] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces\n'}
+[51.784782] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv\n'}
+[51.785005] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail\n'}
+[51.785120] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_c.h\n'}
+[51.785225] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg\n'}
+[51.785458] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[51.785581] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action\n'}
+[51.785850] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail\n'}
+[51.786003] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_c.h\n'}
+[51.786121] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[51.786235] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[51.786352] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces\n'}
+[51.786477] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv\n'}
+[51.786998] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail\n'}
+[51.787129] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__traits.hpp\n'}
+[51.787234] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__builder.hpp\n'}
+[51.787341] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__struct.hpp\n'}
+[51.787589] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/find_closest_wall.hpp\n'}
+[51.788936] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action\n'}
+[51.789002] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail\n'}
+[51.789073] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__builder.hpp\n'}
+[51.789139] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__struct.hpp\n'}
+[51.789210] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__traits.hpp\n'}
+[51.789272] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/measure_lap_time.hpp\n'}
+[51.789558] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces\n'}
+[51.789708] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv\n'}
+[51.789849] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail\n'}
+[51.789943] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/dds_fastrtps\n'}
+[51.790441] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[51.790764] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg\n'}
+[51.790868] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[51.790968] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action\n'}
+[51.791126] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail\n'}
+[51.791391] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[51.791598] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/dds_fastrtps\n'}
+[51.791705] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[51.791823] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[51.791908] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces\n'}
+[51.792255] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv\n'}
+[51.792391] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail\n'}
+[51.792490] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_c.h\n'}
+[51.792606] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__type_support.c\n'}
+[51.792717] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg\n'}
+[51.792838] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[51.793135] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action\n'}
+[51.793359] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail\n'}
+[51.793480] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_c.h\n'}
+[51.793579] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__type_support.c\n'}
+[51.793692] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[51.793809] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[51.793920] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_c.so\n'}
+[51.794067] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[51.794702] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces\n'}
+[51.794802] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv\n'}
+[51.795045] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail\n'}
+[51.795274] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__type_support.cpp\n'}
+[51.795407] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/srv/detail/find_closest_wall__rosidl_typesupport_introspection_cpp.hpp\n'}
+[51.795520] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action\n'}
+[51.795618] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail\n'}
+[51.795703] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__type_support.cpp\n'}
+[51.795793] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/include/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces/action/detail/measure_lap_time__rosidl_typesupport_introspection_cpp.hpp\n'}
+[51.804189] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[51.805526] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[51.807145] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_cpp.so\n'}
+[51.807875] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[51.808110] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/ament_index/resource_index/rust_packages/navigation_robot_custom_interfaces\n'}
+[51.808235] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust\n'}
+[51.809044] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/Cargo.toml\n'}
+[51.809319] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src\n'}
+[51.809665] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src/srv.rs\n'}
+[51.810045] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src/lib.rs\n'}
+[51.810424] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/build.rs\n'}
+[51.810819] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust\n'}
+[51.810972] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/Cargo.toml\n'}
+[51.811147] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src\n'}
+[51.811314] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src/srv.rs\n'}
+[51.811645] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src/lib.rs\n'}
+[51.816264] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/build.rs\n'}
+[51.816405] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust\n'}
+[51.816529] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/Cargo.toml\n'}
+[51.816649] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src\n'}
+[51.816771] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src/srv.rs\n'}
+[51.817062] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/src/lib.rs\n'}
+[51.817235] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/rust/build.rs\n'}
+[51.817355] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/pythonpath.sh\n'}
+[51.817473] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/pythonpath.dsv\n'}
+[51.817597] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[51.817730] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[51.817840] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[51.818094] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[51.818205] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[51.818327] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces\n'}
+[51.818448] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/libnavigation_robot_custom_interfaces__rosidl_generator_py.so\n'}
+[51.818561] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[51.818679] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv\n'}
+[51.818822] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv/_find_closest_wall_s.c\n'}
+[51.820543] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv/_find_closest_wall.py\n'}
+[51.820689] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv/__init__.py\n'}
+[51.820799] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[51.821056] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[51.821178] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/__init__.py\n'}
+[51.821270] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[51.821370] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[51.821510] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/_navigation_robot_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[51.821633] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action\n'}
+[51.821710] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action/_measure_lap_time_s.c\n'}
+[51.821788] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action/__init__.py\n'}
+[51.821855] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action/_measure_lap_time.py\n'}
+[51.876086] (-) TimerEvent: {}
+[51.976438] (-) TimerEvent: {}
+[52.011148] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces'...\n"}
+[52.011859] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/__init__.py'...\n"}
+[52.012007] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action'...\n"}
+[52.012471] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action/__init__.py'...\n"}
+[52.012581] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/action/_measure_lap_time.py'...\n"}
+[52.012687] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv'...\n"}
+[52.012770] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv/__init__.py'...\n"}
+[52.012858] (navigation_robot_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/srv/_find_closest_wall.py'...\n"}
+[52.019403] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[52.021495] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[52.021816] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[52.022305] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[52.022776] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[52.023565] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[52.023737] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_generator_py.so\n'}
+[52.024214] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib/libnavigation_robot_custom_interfaces__rosidl_generator_py.so" to ""\n'}
+[52.024522] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/srv/FindClosestWall.idl\n'}
+[52.025102] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/action/MeasureLapTime.idl\n'}
+[52.025268] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/srv/FindClosestWall.srv\n'}
+[52.025373] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/srv/FindClosestWall_Request.msg\n'}
+[52.025565] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/srv/FindClosestWall_Response.msg\n'}
+[52.025693] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/action/MeasureLapTime.action\n'}
+[52.026524] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/navigation_robot_custom_interfaces\n'}
+[52.026700] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/navigation_robot_custom_interfaces\n'}
+[52.026861] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/ament_prefix_path.sh\n'}
+[52.027520] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[52.027880] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/path.sh\n'}
+[52.028266] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/environment/path.dsv\n'}
+[52.028387] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/local_setup.bash\n'}
+[52.028501] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/local_setup.sh\n'}
+[52.028613] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/local_setup.zsh\n'}
+[52.028707] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/local_setup.dsv\n'}
+[52.085720] (-) TimerEvent: {}
+[52.086074] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.dsv\n'}
+[52.086272] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/ament_index/resource_index/packages/navigation_robot_custom_interfaces\n'}
+[52.086429] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[52.087823] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[52.088052] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[52.088171] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[52.088268] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[52.088392] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[52.088521] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[52.088631] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[52.088740] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[52.089009] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[52.089147] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[52.089263] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[52.089383] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[52.089496] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[52.089610] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[52.089727] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[52.089845] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/export_navigation_robot_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[52.089973] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[52.090087] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[52.090207] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[52.090334] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[52.090450] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[52.090569] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[52.090675] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[52.090802] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfacesConfig.cmake\n'}
+[52.091104] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/cmake/navigation_robot_custom_interfacesConfig-version.cmake\n'}
+[52.091255] (navigation_robot_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/share/navigation_robot_custom_interfaces/package.xml\n'}
+[52.091378] (navigation_robot_custom_interfaces) CommandEnded: {'returncode': 0}
+[52.185903] (-) TimerEvent: {}
+[52.286438] (-) TimerEvent: {}
+[52.387848] (-) TimerEvent: {}
+[52.488480] (-) TimerEvent: {}
+[52.589139] (-) TimerEvent: {}
+[52.689590] (-) TimerEvent: {}
+[52.790069] (-) TimerEvent: {}
+[52.891166] (-) TimerEvent: {}
+[52.891607] (navigation_robot_custom_interfaces) JobEnded: {'identifier': 'navigation_robot_custom_interfaces', 'rc': 0}
+[52.893935] (session7_turtlebot3_robot) JobStarted: {'identifier': 'session7_turtlebot3_robot'}
+[52.992252] (-) TimerEvent: {}
+[53.092783] (-) TimerEvent: {}
+[53.194847] (-) TimerEvent: {}
+[53.295160] (-) TimerEvent: {}
+[53.395493] (-) TimerEvent: {}
+[53.495973] (-) TimerEvent: {}
+[53.597129] (-) TimerEvent: {}
+[53.701303] (-) TimerEvent: {}
+[53.801585] (-) TimerEvent: {}
+[53.907303] (-) TimerEvent: {}
+[54.007599] (-) TimerEvent: {}
+[54.107933] (-) TimerEvent: {}
+[54.210003] (-) TimerEvent: {}
+[54.310654] (-) TimerEvent: {}
+[54.412833] (-) TimerEvent: {}
+[54.513182] (-) TimerEvent: {}
+[54.613604] (-) TimerEvent: {}
+[54.714332] (-) TimerEvent: {}
+[54.822147] (-) TimerEvent: {}
+[54.922464] (-) TimerEvent: {}
+[55.015502] (session7_turtlebot3_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/session7_turtlebot3_robot', 'build', '--build-base', '/home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot/build', 'install', '--record', '/home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user/ros2_navigationrobot_ws/src/session7_turtlebot3_robot', 'env': {'ROS_VERSION': '2', 'NVIDIA_VISIBLE_DEVICES': 'all', 'GAZEBO_MASTER_URI': 'http://4_xterm:11345', 'ROS_PYTHON_VERSION': '3', 'HOSTNAME': '4_xterm', 'PWD': '/home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot', 'PORT': '4000', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'ROS_IP': '', 'HOME': '/home/user', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'LANG': 'en_US.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot:/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/opt/ros/humble', 'CMAKE_PREFIX_PATH': '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces:/home/simulations/ros2_sims_ws/install/common_interfaces:/home/simulations/ros2_sims_ws/install/visualization_msgs:/home/simulations/ros2_sims_ws/install/test_msgs:/home/simulations/ros2_sims_ws/install/example_interfaces:/home/simulations/ros2_sims_ws/install/action_msgs:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs:/home/simulations/ros2_sims_ws/install/trajectory_msgs:/home/simulations/ros2_sims_ws/install/test_interface_files:/home/simulations/ros2_sims_ws/install/stereo_msgs:/home/simulations/ros2_sims_ws/install/std_srvs:/home/simulations/ros2_sims_ws/install/shape_msgs:/home/simulations/ros2_sims_ws/install/sensor_msgs:/home/simulations/ros2_sims_ws/install/nav_msgs:/home/simulations/ros2_sims_ws/install/diagnostic_msgs:/home/simulations/ros2_sims_ws/install/geometry_msgs:/home/simulations/ros2_sims_ws/install/actionlib_msgs:/home/simulations/ros2_sims_ws/install/std_msgs:/home/simulations/ros2_sims_ws/install/statistics_msgs:/home/simulations/ros2_sims_ws/install/rosgraph_msgs:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs:/home/simulations/ros2_sims_ws/install/composition_interfaces:/home/simulations/ros2_sims_ws/install/rcl_interfaces:/home/simulations/ros2_sims_ws/install/lifecycle_msgs:/home/simulations/ros2_sims_ws/install/builtin_interfaces:/home/simulations/ros2_sims_ws/install/rosidl_default_runtime:/home/simulations/ros2_sims_ws/install/rosidl_default_generators:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo', 'COLCON_PREFIX_PATH': '/home/user/ros2_navigationrobot_ws/install:/home/simulations/ros2_sims_ws/install:/home/user/ros2_ws/install', 'GAZEBO_MASTER_PORT': '11345', 'NVM_DIR': '/usr/local/share/shell/.nvm', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PYTHONPATH': '/home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot/prefix_override:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/python3.10/site-packages:/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/python3.10/site-packages:/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/visualization_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/test_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/example_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/action_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/trajectory_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/stereo_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_srvs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/shape_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs_py/lib/python3.10/site-packages:/home/simulations/ros2_sims_ws/install/sensor_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/nav_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/geometry_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/actionlib_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/std_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/statistics_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/composition_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rcl_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:/home/simulations/ros2_sims_ws/install/rosidl_generator_rs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics', 'COLCON': '1', 'TERM': 'xterm-color', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'SNAPCRAFT_BUILD_ENVIRONMENT': 'host', 'GAZEBO_MASTER_HOSTNAME': '4_xterm', 'DISPLAY': ':1', 'SHLVL': '2', 'NVM_CD_FLAGS': '', 'ROS_MASTER_URI': 'http://4_xterm:11311', 'ROS_HOSTNAME': '4_xterm', 'LD_LIBRARY_PATH': '/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/home/simulations/ros2_sims_ws/install/visualization_msgs/lib:/home/simulations/ros2_sims_ws/install/test_msgs/lib:/home/simulations/ros2_sims_ws/install/example_interfaces/lib:/home/simulations/ros2_sims_ws/install/action_msgs/lib:/home/simulations/ros2_sims_ws/install/unique_identifier_msgs/lib:/home/simulations/ros2_sims_ws/install/trajectory_msgs/lib:/home/simulations/ros2_sims_ws/install/stereo_msgs/lib:/home/simulations/ros2_sims_ws/install/std_srvs/lib:/home/simulations/ros2_sims_ws/install/shape_msgs/lib:/home/simulations/ros2_sims_ws/install/sensor_msgs/lib:/home/simulations/ros2_sims_ws/install/nav_msgs/lib:/home/simulations/ros2_sims_ws/install/diagnostic_msgs/lib:/home/simulations/ros2_sims_ws/install/geometry_msgs/lib:/home/simulations/ros2_sims_ws/install/actionlib_msgs/lib:/home/simulations/ros2_sims_ws/install/std_msgs/lib:/home/simulations/ros2_sims_ws/install/statistics_msgs/lib:/home/simulations/ros2_sims_ws/install/rosgraph_msgs/lib:/home/simulations/ros2_sims_ws/install/rclrs_example_msgs/lib:/home/simulations/ros2_sims_ws/install/composition_interfaces/lib:/home/simulations/ros2_sims_ws/install/rcl_interfaces/lib:/home/simulations/ros2_sims_ws/install/lifecycle_msgs/lib:/home/simulations/ros2_sims_ws/install/builtin_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins', 'ROS_LOCALHOST_ONLY': '0', 'SLOT_SHELL_START_ID': '811064', 'SLOT_PREFIX': 'a2992e19-646c-461c-a9db-6851f6035190', 'LC_ALL': 'C', 'SOURCE_ROS1_WS': '', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox', 'SLOT_JENKINS_PORT': '25888', 'SLOT_SYSTEMD': 'False', 'PATH': '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin', 'SELECTED_ROS_DISTRO': 'humble', 'NVM_BIN': '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin', 'NODE_VERSION': 'v8.17.0', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_DISTRO': 'humble', 'GAZEBO_VERBOSE': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'OLDPWD': '/home/user', 'SOURCE_ROS2_WS': 'True', 'SLOT_ROSBRIDGE_PORT': '20004', '_': '/usr/bin/env'}, 'shell': False}
+[55.022602] (-) TimerEvent: {}
+[55.123352] (-) TimerEvent: {}
+[55.276227] (-) TimerEvent: {}
+[55.376557] (-) TimerEvent: {}
+[55.476905] (-) TimerEvent: {}
+[55.577315] (-) TimerEvent: {}
+[55.677747] (-) TimerEvent: {}
+[55.779233] (-) TimerEvent: {}
+[55.879571] (-) TimerEvent: {}
+[55.936096] (session7_turtlebot3_robot) StdoutLine: {'line': b'running egg_info\n'}
+[55.976302] (session7_turtlebot3_robot) StdoutLine: {'line': b'writing ../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info/PKG-INFO\n'}
+[55.976462] (session7_turtlebot3_robot) StdoutLine: {'line': b'writing dependency_links to ../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info/dependency_links.txt\n'}
+[55.976563] (session7_turtlebot3_robot) StdoutLine: {'line': b'writing entry points to ../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info/entry_points.txt\n'}
+[55.976677] (session7_turtlebot3_robot) StdoutLine: {'line': b'writing requirements to ../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info/requires.txt\n'}
+[55.976770] (session7_turtlebot3_robot) StdoutLine: {'line': b'writing top-level names to ../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info/top_level.txt\n'}
+[55.978746] (session7_turtlebot3_robot) StdoutLine: {'line': b"reading manifest file '../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info/SOURCES.txt'\n"}
+[55.979773] (-) TimerEvent: {}
+[55.981207] (session7_turtlebot3_robot) StdoutLine: {'line': b"writing manifest file '../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info/SOURCES.txt'\n"}
+[55.983055] (session7_turtlebot3_robot) StdoutLine: {'line': b'running build\n'}
+[55.983299] (session7_turtlebot3_robot) StdoutLine: {'line': b'running build_py\n'}
+[55.983782] (session7_turtlebot3_robot) StdoutLine: {'line': b'copying session7_turtlebot3_robot/robot_driver.py -> /home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot/build/lib/session7_turtlebot3_robot\n'}
+[55.984508] (session7_turtlebot3_robot) StdoutLine: {'line': b'copying session7_turtlebot3_robot/wall_finder_service_server.py -> /home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot/build/lib/session7_turtlebot3_robot\n'}
+[55.985295] (session7_turtlebot3_robot) StdoutLine: {'line': b'running install\n'}
+[55.986271] (session7_turtlebot3_robot) StdoutLine: {'line': b'running install_lib\n'}
+[55.989781] (session7_turtlebot3_robot) StdoutLine: {'line': b'copying /home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot/build/lib/session7_turtlebot3_robot/robot_driver.py -> /home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/python3.10/site-packages/session7_turtlebot3_robot\n'}
+[55.990011] (session7_turtlebot3_robot) StdoutLine: {'line': b'copying /home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot/build/lib/session7_turtlebot3_robot/wall_finder_service_server.py -> /home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/python3.10/site-packages/session7_turtlebot3_robot\n'}
+[55.992049] (session7_turtlebot3_robot) StdoutLine: {'line': b'byte-compiling /home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/python3.10/site-packages/session7_turtlebot3_robot/robot_driver.py to robot_driver.cpython-310.pyc\n'}
+[55.996588] (session7_turtlebot3_robot) StdoutLine: {'line': b'byte-compiling /home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/python3.10/site-packages/session7_turtlebot3_robot/wall_finder_service_server.py to wall_finder_service_server.cpython-310.pyc\n'}
+[56.002434] (session7_turtlebot3_robot) StdoutLine: {'line': b'running install_data\n'}
+[56.002803] (session7_turtlebot3_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[56.007040] (session7_turtlebot3_robot) StdoutLine: {'line': b"removing '/home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/python3.10/site-packages/session7_turtlebot3_robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[56.007554] (session7_turtlebot3_robot) StdoutLine: {'line': b'Copying ../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info to /home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/python3.10/site-packages/session7_turtlebot3_robot-0.0.0-py3.10.egg-info\n'}
+[56.008489] (session7_turtlebot3_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[56.079881] (-) TimerEvent: {}
+[56.080557] (session7_turtlebot3_robot) StdoutLine: {'line': b'Installing lap_time_action_client script to /home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/session7_turtlebot3_robot\n'}
+[56.091519] (session7_turtlebot3_robot) StdoutLine: {'line': b'Installing lap_time_action_server script to /home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/session7_turtlebot3_robot\n'}
+[56.092238] (session7_turtlebot3_robot) StdoutLine: {'line': b'Installing robot_driver script to /home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/session7_turtlebot3_robot\n'}
+[56.092433] (session7_turtlebot3_robot) StdoutLine: {'line': b'Installing wall_finder_service_server script to /home/user/ros2_navigationrobot_ws/install/session7_turtlebot3_robot/lib/session7_turtlebot3_robot\n'}
+[56.092651] (session7_turtlebot3_robot) StdoutLine: {'line': b"writing list of installed files to '/home/user/ros2_navigationrobot_ws/build/session7_turtlebot3_robot/install.log'\n"}
+[56.125690] (session7_turtlebot3_robot) CommandEnded: {'returncode': 0}
+[56.135160] (session7_turtlebot3_robot) JobEnded: {'identifier': 'session7_turtlebot3_robot', 'rc': 0}
+[56.176429] (-) EventReactorShutdown: {}
