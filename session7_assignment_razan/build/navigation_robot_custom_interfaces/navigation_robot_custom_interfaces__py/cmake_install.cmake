@@ -1,8 +1,8 @@
-# Install script for directory: /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces__py
+# Install script for directory: /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/user/ros2_navigationrobot_ws/install/navigation_robot_custom_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/razanhmede/session7_navigation_robot/session7_assignment_razan/install/navigation_robot_custom_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

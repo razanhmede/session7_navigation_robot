@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ros2_navigationrobot_ws/src/navigation_robot_custom_interfaces
+CMAKE_SOURCE_DIR = /home/razanhmede/session7_navigation_robot/session7_assignment_razan/src/navigation_robot_custom_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces
+CMAKE_BINARY_DIR = /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/navigation_robot_custom_interfaces
 
 # Utility rule file for ament_cmake_python_copy_navigation_robot_custom_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_navigation_robot_custom_interfaces.di
 include CMakeFiles/ament_cmake_python_copy_navigation_robot_custom_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_navigation_robot_custom_interfaces:
-	/usr/bin/cmake -E copy_directory /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces/rosidl_generator_py/navigation_robot_custom_interfaces /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces/ament_cmake_python/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces
+	/usr/bin/cmake -E copy_directory /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/navigation_robot_custom_interfaces/rosidl_generator_py/navigation_robot_custom_interfaces /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/navigation_robot_custom_interfaces/ament_cmake_python/navigation_robot_custom_interfaces/navigation_robot_custom_interfaces
 
 ament_cmake_python_copy_navigation_robot_custom_interfaces: CMakeFiles/ament_cmake_python_copy_navigation_robot_custom_interfaces
 ament_cmake_python_copy_navigation_robot_custom_interfaces: CMakeFiles/ament_cmake_python_copy_navigation_robot_custom_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_navigation_robot_custom_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_navigation_robot_custom_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_navigation_robot_custom_interfaces.dir/depend:
-	cd /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros2_navigationrobot_ws/src/navigation_robot_custom_interfaces /home/user/ros2_navigationrobot_ws/src/navigation_robot_custom_interfaces /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces/CMakeFiles/ament_cmake_python_copy_navigation_robot_custom_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/navigation_robot_custom_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/razanhmede/session7_navigation_robot/session7_assignment_razan/src/navigation_robot_custom_interfaces /home/razanhmede/session7_navigation_robot/session7_assignment_razan/src/navigation_robot_custom_interfaces /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/navigation_robot_custom_interfaces /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/navigation_robot_custom_interfaces /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/navigation_robot_custom_interfaces/CMakeFiles/ament_cmake_python_copy_navigation_robot_custom_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_navigation_robot_custom_interfaces.dir/depend
 

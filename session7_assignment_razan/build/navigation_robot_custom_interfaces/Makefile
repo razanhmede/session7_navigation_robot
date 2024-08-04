@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ros2_navigationrobot_ws/src/navigation_robot_custom_interfaces
+CMAKE_SOURCE_DIR = /home/razanhmede/session7_navigation_robot/session7_assignment_razan/src/navigation_robot_custom_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces
+CMAKE_BINARY_DIR = /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/navigation_robot_custom_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces/CMakeFiles /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/navigation_robot_custom_interfaces/CMakeFiles /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/navigation_robot_custom_interfaces//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ros2_navigationrobot_ws/build/navigation_robot_custom_interfaces/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/navigation_robot_custom_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -391,19 +391,6 @@ navigation_robot_custom_interfaces__rosidl_typesupport_c__pyext: cmake_check_bui
 navigation_robot_custom_interfaces__rosidl_typesupport_c__pyext/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/navigation_robot_custom_interfaces__rosidl_typesupport_c__pyext.dir/build
 .PHONY : navigation_robot_custom_interfaces__rosidl_typesupport_c__pyext/fast
-
-#=============================================================================
-# Target rules for targets named navigation_robot_custom_interfaces__rs
-
-# Build rule for target.
-navigation_robot_custom_interfaces__rs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 navigation_robot_custom_interfaces__rs
-.PHONY : navigation_robot_custom_interfaces__rs
-
-# fast build rule for target.
-navigation_robot_custom_interfaces__rs/fast:
-	$(MAKE) $(MAKESILENT) -f navigation_robot_custom_interfaces__rs/CMakeFiles/navigation_robot_custom_interfaces__rs.dir/build.make navigation_robot_custom_interfaces__rs/CMakeFiles/navigation_robot_custom_interfaces__rs.dir/build
-.PHONY : navigation_robot_custom_interfaces__rs/fast
 
 #=============================================================================
 # Target rules for targets named navigation_robot_custom_interfaces__py
@@ -892,7 +879,6 @@ help:
 	@echo "... navigation_robot_custom_interfaces"
 	@echo "... navigation_robot_custom_interfaces__cpp"
 	@echo "... navigation_robot_custom_interfaces__py"
-	@echo "... navigation_robot_custom_interfaces__rs"
 	@echo "... navigation_robot_custom_interfaces_uninstall"
 	@echo "... uninstall"
 	@echo "... navigation_robot_custom_interfaces__rosidl_generator_c"

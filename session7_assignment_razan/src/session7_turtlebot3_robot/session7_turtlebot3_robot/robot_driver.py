@@ -7,7 +7,7 @@ from navigation_robot_custom_interfaces.srv import FindClosestWall
 class RobotDriver(Node):
     def __init__(self):
         super().__init__('robot_driver')
-        
+
         # Publisher to control the robot's movement
         self.publisher = self.create_publisher(Twist, '/cmd_vel', 10)
         
@@ -33,11 +33,11 @@ class RobotDriver(Node):
             twist.linear.x = 0.0
             twist.angular.z = -0.4
             self.get_logger().info(f"Obstacle detected very close at {msg.ranges[0]:.2f} meters. Stopping and turning sharply.")
-        # msg[25] distance measurement 35 measurements away from the start of the scan data 
+        # msg[35] distance measurement 35 measurements away from the start of the scan data 
         elif msg.ranges[35] < side_obstacle_distance:
             twist.linear.x = 0.0
             twist.angular.z = -0.2
-            self.get_logger().info(f"Obstacle detected nearby at {msg.ranges[25]:.2f} meters. Turning slightly.")
+            self.get_logger().info(f"Obstacle detected nearby at {msg.ranges[35]:.2f} meters. Turning slightly.")
         else:
             twist.linear.x = 0.3
             twist.angular.z = 0.0
@@ -48,13 +48,15 @@ class RobotDriver(Node):
     def call_find_closest_wall(self):
         request = FindClosestWall.Request()
         future = self.client.call_async(request)
-        rclpy.spin_until_future_complete(self, future)
-        
-        if future.result() is not None:
-            response = future.result()
-            self.get_logger().info(f"Closest wall at x: {response.x}, y: {response.y}, distance: {response.z}")
-        else:
-            self.get_logger().error('Service call failed')
+
+        def response_received_callback(future):
+            try:
+                response = future.result()
+                self.get_logger().info(f"Closest wall at x: {response.x}, y: {response.y}, z: {response.z}")
+            except Exception as e:
+                self.get_logger().error(f'Service call failed: {str(e)}')
+
+        future.add_done_callback(response_received_callback)
 
 def main(args=None):
     rclpy.init(args=args)
@@ -65,3 +67,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
