@@ -39,7 +39,7 @@ class LapTimeClient(Node):
 
     def result_callback(self, future):
         result = future.result().result
-        self.get_logger().info(f'Total lap time: {result.total_time:.2f} seconds')
+        self.get_logger().info(f'Total lap time: {result.lap_time:.2f} seconds')
         self.destroy_node()
         rclpy.shutdown()
 

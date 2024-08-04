@@ -1,0 +1,27 @@
+[1.912s] Invoking command in '/home/razanhmede/session7_navigation_robot/session7_assignment_razan/src/session7_turtlebot3_robot': PYTHONPATH=/home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/session7_turtlebot3_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/razanhmede/session7_navigation_robot/session7_assignment_razan/install/session7_turtlebot3_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/session7_turtlebot3_robot build --build-base /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/session7_turtlebot3_robot/build install --record /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/session7_turtlebot3_robot/install.log --single-version-externally-managed install_data
+[2.907s] running egg_info
+[2.916s] writing ../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info/PKG-INFO
+[2.916s] writing dependency_links to ../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info/dependency_links.txt
+[2.917s] writing entry points to ../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info/entry_points.txt
+[2.917s] writing requirements to ../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info/requires.txt
+[2.918s] writing top-level names to ../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info/top_level.txt
+[2.923s] reading manifest file '../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info/SOURCES.txt'
+[2.926s] writing manifest file '../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info/SOURCES.txt'
+[2.926s] running build
+[2.926s] running build_py
+[2.927s] copying session7_turtlebot3_robot/lap_time_action_server.py -> /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/session7_turtlebot3_robot/build/lib/session7_turtlebot3_robot
+[2.932s] running install
+[2.934s] running install_lib
+[2.934s] copying /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/session7_turtlebot3_robot/build/lib/session7_turtlebot3_robot/lap_time_action_server.py -> /home/razanhmede/session7_navigation_robot/session7_assignment_razan/install/session7_turtlebot3_robot/lib/python3.10/site-packages/session7_turtlebot3_robot
+[2.948s] byte-compiling /home/razanhmede/session7_navigation_robot/session7_assignment_razan/install/session7_turtlebot3_robot/lib/python3.10/site-packages/session7_turtlebot3_robot/lap_time_action_server.py to lap_time_action_server.cpython-310.pyc
+[2.952s] running install_data
+[2.952s] running install_egg_info
+[2.957s] removing '/home/razanhmede/session7_navigation_robot/session7_assignment_razan/install/session7_turtlebot3_robot/lib/python3.10/site-packages/session7_turtlebot3_robot-0.0.0-py3.10.egg-info' (and everything under it)
+[2.959s] Copying ../../build/session7_turtlebot3_robot/session7_turtlebot3_robot.egg-info to /home/razanhmede/session7_navigation_robot/session7_assignment_razan/install/session7_turtlebot3_robot/lib/python3.10/site-packages/session7_turtlebot3_robot-0.0.0-py3.10.egg-info
+[2.962s] running install_scripts
+[3.064s] Installing lap_time_action_client script to /home/razanhmede/session7_navigation_robot/session7_assignment_razan/install/session7_turtlebot3_robot/lib/session7_turtlebot3_robot
+[3.065s] Installing lap_time_action_server script to /home/razanhmede/session7_navigation_robot/session7_assignment_razan/install/session7_turtlebot3_robot/lib/session7_turtlebot3_robot
+[3.065s] Installing robot_driver script to /home/razanhmede/session7_navigation_robot/session7_assignment_razan/install/session7_turtlebot3_robot/lib/session7_turtlebot3_robot
+[3.065s] Installing wall_finder_service_server script to /home/razanhmede/session7_navigation_robot/session7_assignment_razan/install/session7_turtlebot3_robot/lib/session7_turtlebot3_robot
+[3.066s] writing list of installed files to '/home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/session7_turtlebot3_robot/install.log'
+[3.162s] Invoked command in '/home/razanhmede/session7_navigation_robot/session7_assignment_razan/src/session7_turtlebot3_robot' returned '0': PYTHONPATH=/home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/session7_turtlebot3_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/razanhmede/session7_navigation_robot/session7_assignment_razan/install/session7_turtlebot3_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/session7_turtlebot3_robot build --build-base /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/session7_turtlebot3_robot/build install --record /home/razanhmede/session7_navigation_robot/session7_assignment_razan/build/session7_turtlebot3_robot/install.log --single-version-externally-managed install_data
